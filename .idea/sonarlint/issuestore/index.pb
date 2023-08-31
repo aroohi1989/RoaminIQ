@@ -25,8 +25,6 @@ S
 #src/test/java/Import_Schedules.java,e\a\ea5d0cde2c8c67ebcc72388291f9d634d73bcb7d
 Q
 !src/main/java/helper/Utility.java,4\f\4f8cf464663769db8d99c52a7d43ab38b154c39d
-`
-0src/main/java/browserfactory/BrowserFactory.java,b\f\bfdd9742c0a8ba7a848518a372bb21a7e823b88a
 Z
 *src/main/java/helper/Read_write_Excel.java,6\9\69dc6121d3f9700ecf0c1eaee68c7ebea2fbb3e5
 _
@@ -117,8 +115,6 @@ P
 -test-output/old/Command line suite/index.html,f\6\f65116db2418adced44ec59af484f97a0ae0029f
 O
 test-output/jquery-3.6.0.min.js,7\c\7cb9a25f7cfa59c8d7aa3d6c54049b7134e3b855
-F
-configs/log4j/logs.log,e\7\e7feab0017b6f4c1b5ee16c92b49463e2d4e9064
 \
 ,test-output/old/Command line suite/main.html,8\a\8a3541bf162ee8bd56f0974a54815630351e4fad
 _

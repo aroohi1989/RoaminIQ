@@ -25,8 +25,6 @@ S
 #src/test/java/Import_Schedules.java,e\a\ea5d0cde2c8c67ebcc72388291f9d634d73bcb7d
 Q
 !src/main/java/helper/Utility.java,4\f\4f8cf464663769db8d99c52a7d43ab38b154c39d
-`
-0src/main/java/browserfactory/BrowserFactory.java,b\f\bfdd9742c0a8ba7a848518a372bb21a7e823b88a
 _
 /src/test/java/BillingSubmission_Permission.java,0\b\0b43956cebd235de1520d24b344250ef5de48cd4
 Z
@@ -43,8 +41,6 @@ U
 ,src/main/java/dataProvider/ConfigReader.java,f\c\fc3258a76b3ddd55d20c098362512da4fe16dbb5
 Å
 Q.idea/sonarlint/securityhotspotstore/7/2/72fc4d88b9810bd8054a9fd0d4c9fdbb529cdbc2,a\f\af1f121df5cbdb40c2a8a601b23173a4d4b2a268
-F
-configs/log4j/logs.log,e\7\e7feab0017b6f4c1b5ee16c92b49463e2d4e9064
 a
 1test-output/junitreports/TEST-XGLT_15177_Test.xml,e\a\eaaedf65106825fa417faaee3af781e015f9ae25
 e
