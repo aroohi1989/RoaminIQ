@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[InstanceQA134-PS xGL DB]]>
+    </line>
+    <line>
+      <![CDATA[InstanceQA134-PS xGL DBData Service10.7.30.164:1521/xgldb]]>
+    </line>
+    <line>
+      <![CDATA[InstanceQA134-PS xGL DBData Service10.7.30.164:1521/xgldbChannel CountChannelCount: 560, HeadendCount=77]]>
+    </line>
+    <line>
+      <![CDATA[InstanceQA134-PS xGL DBData Service10.7.30.164:1521/xgldbChannel CountChannelCount: 560, HeadendCount=77Build Infodevelop | ID=2777abc 84 @ 08/07/23 06:35 AM]]>
+    </line>
+    <line>
+      <![CDATA[InstanceQA134-PS xGL DBData Service10.7.30.164:1521/xgldbChannel CountChannelCount: 560, HeadendCount=77Build Infodevelop | ID=2777abc 84 @ 08/07/23 06:35 AMPackage InfoxGLinear 2.6.0 Azure Build at 08/07/2023 06:40:58]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-08-08T14:15:45 IST" name="Command line suite" finished-at="2023-08-08T14:16:14 IST" duration-ms="29300">
+    <groups>
+    </groups>
+    <test started-at="2023-08-08T14:15:45 IST" name="Command line test" finished-at="2023-08-08T14:16:14 IST" duration-ms="29300">
+      <class name="XGLT_15177_Test">
+        <test-method is-config="true" signature="archive_old()[pri:0, instance:XGLT_15177_Test@3d3e5463]" started-at="2023-08-08T14:15:45 IST" name="archive_old" finished-at="2023-08-08T14:15:45 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- archive_old -->
+        <test-method is-config="true" signature="setupLog4j()[pri:0, instance:XGLT_15177_Test@3d3e5463]" started-at="2023-08-08T14:15:45 IST" name="setupLog4j" finished-at="2023-08-08T14:15:45 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupLog4j -->
+        <test-method is-config="true" signature="login()[pri:0, instance:XGLT_15177_Test@3d3e5463]" started-at="2023-08-08T14:15:45 IST" name="login" finished-at="2023-08-08T14:16:10 IST" duration-ms="25322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="name(org.testng.ITestContext)[pri:0, instance:XGLT_15177_Test@3d3e5463]" started-at="2023-08-08T14:16:11 IST" name="name" finished-at="2023-08-08T14:16:11 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@57545c3f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- name -->
+        <test-method signature="About()[pri:2, instance:XGLT_15177_Test@3d3e5463]" started-at="2023-08-08T14:16:11 IST" name="About" finished-at="2023-08-08T14:16:14 IST" duration-ms="3764" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentTest.pass(com.aventstack.extentreports.model.Media)" because the return value of "java.lang.ThreadLocal.get()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.pass(com.aventstack.extentreports.model.Media)" because the return value of "java.lang.ThreadLocal.get()" is null
+at helper.ScreenshotUtility.onDemandScreenshotReport(ScreenshotUtility.java:10)
+at XGLT_15177_Test.About(XGLT_15177_Test.java:41)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at TestngRunner.main(TestngRunner.java:9)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[InstanceQA134-PS xGL DB]]>
+            </line>
+            <line>
+              <![CDATA[InstanceQA134-PS xGL DBData Service10.7.30.164:1521/xgldb]]>
+            </line>
+            <line>
+              <![CDATA[InstanceQA134-PS xGL DBData Service10.7.30.164:1521/xgldbChannel CountChannelCount: 560, HeadendCount=77]]>
+            </line>
+            <line>
+              <![CDATA[InstanceQA134-PS xGL DBData Service10.7.30.164:1521/xgldbChannel CountChannelCount: 560, HeadendCount=77Build Infodevelop | ID=2777abc 84 @ 08/07/23 06:35 AM]]>
+            </line>
+            <line>
+              <![CDATA[InstanceQA134-PS xGL DBData Service10.7.30.164:1521/xgldbChannel CountChannelCount: 560, HeadendCount=77Build Infodevelop | ID=2777abc 84 @ 08/07/23 06:35 AMPackage InfoxGLinear 2.6.0 Azure Build at 08/07/2023 06:40:58]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- About -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:XGLT_15177_Test@3d3e5463]" started-at="2023-08-08T14:16:14 IST" name="closeBrowser" finished-at="2023-08-08T14:16:14 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- XGLT_15177_Test -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

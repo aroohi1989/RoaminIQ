@@ -1,0 +1,50 @@
+
+b	java:S112'"FDefine and throw a dedicated exception instead of using a generic one.(¥ü×8ÑŸ¥û1
+g	java:S112j"FDefine and throw a dedicated exception instead of using a generic one.(ŒÁî¿úÿÿÿÿ8ÑŸ¥û1
+g	java:S112t"FDefine and throw a dedicated exception instead of using a generic one.(šÙı¡üÿÿÿÿ8ÑŸ¥û1
+y	java:S127<"XRefactor the code in order to not assign to this loop counter from within the loop body.(¦ÃĞìùÿÿÿÿ8ÔŸ¥û1
+y	java:S127<"XRefactor the code in order to not assign to this loop counter from within the loop body.(¦ÃĞìùÿÿÿÿ8ÔŸ¥û1
+W
+java:S1141a"5Extract this nested try block into a separate method.(“éëùÿÿÿÿ8ÔŸ¥û1
+W
+java:S1141l"5Extract this nested try block into a separate method.(¨¾ıÿÿÿÿ8ÔŸ¥û1
+‚
+java:S1149®"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ì­ŠÜúÿÿÿÿ8Ÿ¡¥û1
+o
+java:S3776'"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(¥ü×8¢¡¥û1
+X	java:S1252"<This block of commented-out lines of code should be removed.(ò°£”8¥¡¥û1
+[
+java:S47195"9Replace charset name argument with StandardCharsets.UTF_8(ªÒ’›úÿÿÿÿ8§¡¥û1
+M
+java:S5542F"+Use another cipher mode or disable padding.(‘€Õ¦ÿÿÿÿÿ8«¡¥û1
+@
+java:S5547F"Use a strong cipher algorithm.(‘€Õ¦ÿÿÿÿÿ8«¡¥û1
+]	java:S125O"<This block of commented-out lines of code should be removed.(•ç ƒÿÿÿÿÿ8¬¡¥û1
+\	java:S899V";Do something with the "boolean" value returned by "delete".(é‘‚©úÿÿÿÿ8¬¡¥û1
+p
+java:S4042V"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(é‘‚©úÿÿÿÿ8­¡¥û1
+\	java:S899X";Do something with the "boolean" value returned by "delete".(¹Î“üÿÿÿÿ8­¡¥û1
+p
+java:S4042X"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(¹Î“üÿÿÿÿ8­¡¥û1
+
+java:S4087f"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(„¸Ç§8¯¡¥û1
+
+java:S4087o"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(Éï‰­8±¡¥û1
+\	java:S899s";Do something with the "boolean" value returned by "delete".(é‘‚©úÿÿÿÿ8³¡¥û1
+p
+java:S4042s"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(é‘‚©úÿÿÿÿ8³¡¥û1
+\
+java:S4719Š"9Replace charset name argument with StandardCharsets.UTF_8(°•±ûÿÿÿÿ8¸¡¥û1
+a
+java:S1117£">Rename "ciphertext" which hides the field declared at line 35.(Ú´Ğùÿÿÿÿ8¾¡¥û1
+Y	java:S125¢"<This block of commented-out lines of code should be removed.(¹ñÎ¿8¾¡¥û1
+¢
+java:S1130¸"Remove the declaration of thrown exception 'java.security.NoSuchAlgorithmException', as it cannot be thrown from method's body.(¸…ûÿÿÿÿ8Â¡¥û1
+d
+java:S3457¿"AFormat specifiers should be used instead of string concatenation.(¾ì¦¤ıÿÿÿÿ8Å¡¥û1
+P
+java:S1068"3Remove this unused "VALIDATE_STRING" private field.(£¾Îñ8Ç¡¥û1
+I
+java:S1068",Remove this unused "toVerify" private field.(ÿØÿó8Ç¡¥û1
+J
+java:S1144]"-Remove this unused private "writeOut" method.(¦½´ü8Ç¡¥û1

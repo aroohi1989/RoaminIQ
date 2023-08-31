@@ -1,0 +1,25 @@
+
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(²Şã®ùÿÿÿÿ
+`	java:S112 "FDefine and throw a dedicated exception instead of using a generic one.(Á—ãşÿÿÿÿÿ
+f	java:S117#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“ûº¹
+k	java:S117."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈªÜ¦úÿÿÿÿ
+f	java:S117/"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö… 
+k	java:S1170"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š£¸úÿÿÿÿ
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(‡Æï€
+h
+java:S2095%"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ãŒ„´ÿÿÿÿÿ
+h
+java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ãŒ„´ÿÿÿÿÿ
+`
+java:S2095&"JUse try-with-resources or close this "XSSFWorkbook" in a "finally" clause.(Ú‹…
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²Şã®ùÿÿÿÿ
+W
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(½±áÇ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(åòÒ’
+N	java:S106"9Replace this use of System.out or System.err by a logger.(çáÿ 
+h	java:S100 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á—ãşÿÿÿÿÿ
+W
+java:S1075$"ARefactor your code to get this URI from a customizable parameter.(‡«íÉ
+N	java:S106'"9Replace this use of System.out or System.err by a logger.(åòÒ’
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(ê³¨ıÿÿÿÿ
+S	java:S1061"9Replace this use of System.out or System.err by a logger.(‹Ä¡€ûÿÿÿÿ

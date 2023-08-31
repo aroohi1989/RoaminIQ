@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objectrepository>
+    <!--Login-->
+        <user>Xpath://input[@id='login.login']</user>
+        <passwd>Xpath://input[@id='login.login']</passwd>
+        <login>Xpath://button[@id='login.loginButton']</login>
+    <!--/Login-->
+</objectrepository>

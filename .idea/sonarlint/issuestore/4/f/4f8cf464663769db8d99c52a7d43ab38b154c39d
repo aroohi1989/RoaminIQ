@@ -1,0 +1,12 @@
+
+m	java:S117N"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…”Øı8í ¥Ù›1
+r	java:S117c"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡§ì‚şÿÿÿÿ8í ¥Ù›1
+s	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à õıÿÿÿÿ8í ¥Ù›1
+~
+java:S1488J"\Immediately return this expression instead of assigning it to the temporary variable "code".(â×³ãıÿÿÿÿ8î ¥Ù›1
+^
+java:S3457:"AFormat specifiers should be used instead of string concatenation.(¤â¯Á8é¾©Ù›1
+@
+java:S2119A"Save and re-use this "Random".(šŸ«íøÿÿÿÿ8¯¡¥Ù›1
+d
+java:S3457É"AFormat specifiers should be used instead of string concatenation.(Ó¥èÎÿÿÿÿÿ8Ä¡¥Ù›1

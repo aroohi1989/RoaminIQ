@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Pack Suite">
+    <listeners>
+        <listener class-name="listners.ExtentReportListener"></listener>
+    </listeners>
+    <test name="About_network_test">
+        <parameter name="username" value="MCU"></parameter>
+        <parameter name="password" value="Abcd1234"></parameter>
+        <parameter name="URL" value="https://qa134.myimagine.com/xGLinear/login.html"></parameter>
+        <parameter name="Version" value="xGLinear 2.5.3"></parameter>
+        <parameter name="browser" value="Chrome"></parameter>
+        <parameter name="inventorytype" value="DEFAULT | Default (unallocated)Inventory"></parameter>
+        <classes>
+            <class name="XGLT_15177_Test"/>
+            <!--class name="Create_Network"/-->
+            <!--class name="Test_DB"/-->
+            <!--class name="Network_programbreakformat"/-->
+        </classes>
+    </test>
+</suite>

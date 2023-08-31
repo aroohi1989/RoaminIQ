@@ -1,0 +1,18 @@
+
+m	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°ì„º8ÈÈ½ž•1
+m	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°ì„º8ÈÈ½ž•1
+r	java:S1172"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡ç¾Ûüÿÿÿÿ8ÈÈ½ž•1
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(†­¢œ8ÉÈ½ž•1
+o
+java:S2095"MUse try-with-resources or close this "ZipOutputStream" in a "finally" clause.(‰ßÑÀþÿÿÿÿ8à’¶ë–1
+k
+java:S2095"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(üîËÙ8ß’¶ë–1
+o
+java:S2095#"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(¾¡½ßÿÿÿÿÿ8ê›Šç–1
+j	java:S100	"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°ì„º8ÕÈ½ž•1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(åßÅ€8ÚÈ½ž•1
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚“×à8ÚÈ½ž•1
+p
+java:S4042="NUse "java.nio.file.Files#delete" here for better messages on error conditions.(±ÝÌÕûÿÿÿÿ8ÞÈ½ž•1
+Z	java:S106?"9Replace this use of System.out or System.err by a logger.(ÔÌÍÁúÿÿÿÿ8ÞÈ½ž•1
+T	java:S106B"9Replace this use of System.out or System.err by a logger.(½ÙÞ'8ÞÈ½ž•1
