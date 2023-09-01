@@ -18,8 +18,6 @@ W
 b
 2src/main/java/dataProvider/CaselessProperties.java,5\6\56c3c18cefb1e5846038d504c217ca54f6bd26cc
 \
-,src/main/java/helper/JavaScriptExecutor.java,d\1\d11652c308c81b2d46e574cab3e3e6a0b73978ac
-\
 ,src/main/java/listners/WebEventListener.java,7\2\72fc4d88b9810bd8054a9fd0d4c9fdbb529cdbc2
 S
 #src/test/java/Import_Schedules.java,e\a\ea5d0cde2c8c67ebcc72388291f9d634d73bcb7d
@@ -131,8 +129,6 @@ J
 src/test/java/Test_DB.java,3\d\3d8cf6488c04d0fe6ec0029c199cfef3e22f4070
 F
 test-output/testng.css,5\3\53149e8fcb459b7b9396a1aca5faf8674b87236d
-A
-Testng/testng.xml,0\d\0d56ab1580ad1ef0d956993acbf67e2b7f9a46a4
 b
 2test-output/old/Command line suite/testng.xml.html,1\5\1564489ac97fdeb98825f1fb02a7ac6800a2f4d8
 `
@@ -155,13 +151,7 @@ O
 +test-output/old/Command line suite/toc.html,0\d\0dea9165d4629e7cfc2c3eb23f1fb161723bece1
 >
 LearnMaven.iml,2\d\2deb4d70db04a3558b5ae83a61c58371fd71c570
-F
-configs/log4j/logs.log,e\7\e7feab0017b6f4c1b5ee16c92b49463e2d4e9064
-7
-pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 X
 (src/main/java/ORParcer/XMLParserSAX.java,d\3\d3db40f3875e0114a0a3386b5d04318886a089b8
 `
 0src/main/java/browserfactory/BrowserFactory.java,b\f\bfdd9742c0a8ba7a848518a372bb21a7e823b88a
-R
-"src/test/java/XGLT_15177_Test.java,5\1\5156c251e269cbd188775f1f1470679fc73aac97

@@ -4879,3 +4879,941 @@ java.nio.file.FileAlreadyExistsException: D:\XGL Final\XGLFinal\target\surefire-
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+2023-09-01 18:28:23,186 [main] INFO  base.BaseClass - Login to XGL
+2023-09-01 18:28:23,211 [main] INFO  XGLT_15177_Test - Setting up browser
+2023-09-01 18:28:30,360 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+2023-09-01 18:28:30,675 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dP-PL\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+2023-09-01 18:28:43,209 [main] INFO  base.BaseClass - Before navigating to {url}
+2023-09-01 18:28:46,612 [main] INFO  base.BaseClass - Navigated to {url}
+2023-09-01 18:28:46,645 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:28:47,014 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:28:47,023 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:28:47,042 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:28:47,042 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:28:47,057 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:28:48,083 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-01 18:28:48,166 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-01 18:28:48,168 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:28:53,544 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:28:53,852 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:28:53,868 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:28:53,868 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-01 18:28:53,905 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-01 18:28:53,908 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:28:53,922 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:28:53,941 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:28:53,955 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:28:53,955 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-01 18:28:53,991 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-01 18:28:53,995 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:28:54,717 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:28:54,792 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:28:54,827 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:28:54,827 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:28:54,840 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:28:54,841 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:28:54,857 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:28:54,876 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:28:54,886 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:28:54,887 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:28:54,898 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:28:54,898 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:28:54,910 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:28:54,943 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:28:54,957 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:28:54,958 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:28:54,972 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:28:54,972 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:28:54,983 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:28:55,002 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:28:55,014 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:28:55,014 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:28:55,026 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:28:55,026 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:28:55,037 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:28:55,059 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:28:55,068 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:28:55,068 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:28:55,088 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:28:55,088 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:28:55,105 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:28:55,124 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:28:55,134 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:28:55,137 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:28:55,146 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:28:56,160 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:28:56,178 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:28:57,007 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:28:57,024 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:28:57,025 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-01 18:28:57,064 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-01 18:28:57,240 [main] INFO  XGLT_15177_Test - closing up browser
+2023-09-01 18:29:45,218 [main] INFO  base.BaseClass - Login to XGL
+2023-09-01 18:29:45,221 [main] INFO  XGLT_15177_Test - Setting up browser
+2023-09-01 18:29:45,553 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+2023-09-01 18:29:45,581 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dP-PL\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+2023-09-01 18:29:48,349 [main] INFO  base.BaseClass - Before navigating to {url}
+2023-09-01 18:29:52,126 [main] INFO  base.BaseClass - Navigated to {url}
+2023-09-01 18:29:52,145 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:29:52,160 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:29:52,164 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:29:52,178 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:29:52,178 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:29:52,191 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:29:52,304 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-01 18:29:52,345 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-01 18:29:52,348 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:29:56,151 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:29:56,244 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:29:56,262 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:29:56,262 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-01 18:29:56,313 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-01 18:29:56,317 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:29:56,330 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:29:56,356 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:29:56,366 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:29:56,366 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-01 18:29:56,600 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-01 18:29:56,603 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:29:56,921 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:29:56,939 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:29:56,959 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:29:56,960 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:29:56,974 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:29:56,975 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:29:56,993 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:29:57,013 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:29:57,027 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:29:57,028 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:29:57,039 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:29:57,039 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:29:57,049 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:29:57,085 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:29:57,173 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:29:57,173 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:29:57,253 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:29:57,253 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:29:57,353 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:29:57,553 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:29:57,611 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:29:57,612 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:29:57,629 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:29:57,629 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:29:57,642 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:29:57,661 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:29:57,670 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:29:57,670 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:29:57,680 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:29:57,680 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:29:57,691 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:29:57,712 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:29:57,723 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:29:57,724 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:29:57,738 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:29:58,763 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:29:58,793 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:29:59,061 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:29:59,081 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:29:59,081 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-01 18:29:59,123 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-01 18:29:59,306 [main] INFO  XGLT_15177_Test - closing up browser
+2023-09-01 18:29:59,837 [main] ERROR org.testng.reporters.jq.Main - D:\XGL Final\XGLFinal\target\surefire-reports\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: D:\XGL Final\XGLFinal\target\surefire-reports\jquery-3.6.0.min.js
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.nio.file.Files.copy(Files.java:3159) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324) [surefire-testng-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74) [surefire-testng-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123) [surefire-testng-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+2023-09-01 18:32:45,857 [main] INFO  base.BaseClass - Login to XGL
+2023-09-01 18:32:45,859 [main] INFO  XGLT_6693_Test - Setting up browser
+2023-09-01 18:32:46,214 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+2023-09-01 18:32:46,256 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dP-PL\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+2023-09-01 18:32:47,636 [main] INFO  base.BaseClass - Before navigating to {url}
+2023-09-01 18:32:52,387 [main] INFO  base.BaseClass - Navigated to {url}
+2023-09-01 18:32:52,404 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:32:52,420 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:32:52,424 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:32:52,437 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:32:52,438 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:32:52,451 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:32:52,569 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-01 18:32:52,609 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-01 18:32:52,611 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:32:56,289 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:32:56,356 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:32:56,376 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 18:32:56,376 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 18:33:46,712 [main] INFO  XGLT_6693_Test - closing up browser
+2023-09-01 18:33:47,477 [main] ERROR org.testng.reporters.jq.Main - D:\XGL Final\XGLFinal\target\surefire-reports\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: D:\XGL Final\XGLFinal\target\surefire-reports\jquery-3.6.0.min.js
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.nio.file.Files.copy(Files.java:3159) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324) [surefire-testng-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74) [surefire-testng-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123) [surefire-testng-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+2023-09-01 19:09:23,677 [main] INFO  base.BaseClass - Login to XGL
+2023-09-01 19:09:23,679 [main] INFO  XGLT_6693_Test - Setting up browser
+2023-09-01 19:09:24,041 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+2023-09-01 19:09:24,071 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dP-PL\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+2023-09-01 19:09:25,647 [main] INFO  base.BaseClass - Before navigating to {url}
+2023-09-01 19:09:30,419 [main] INFO  base.BaseClass - Navigated to {url}
+2023-09-01 19:09:30,451 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:09:30,486 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:09:30,496 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:09:30,524 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:09:30,525 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:09:30,555 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:09:30,754 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-01 19:09:30,799 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-01 19:09:30,804 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:09:35,375 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:09:35,853 [main] INFO  XGLT_6693_Test - closing up browser
+2023-09-01 19:09:36,549 [main] ERROR org.testng.reporters.jq.Main - D:\XGL Final\XGLFinal\target\surefire-reports\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: D:\XGL Final\XGLFinal\target\surefire-reports\jquery-3.6.0.min.js
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.nio.file.Files.copy(Files.java:3159) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324) [surefire-testng-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74) [surefire-testng-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123) [surefire-testng-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+2023-09-01 19:41:27,938 [main] INFO  base.BaseClass - Login to XGL
+2023-09-01 19:41:27,940 [main] INFO  XGLT_6693_Test - Setting up browser
+2023-09-01 19:41:30,073 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+2023-09-01 19:41:30,131 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dP-PL\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+2023-09-01 19:41:32,460 [main] INFO  base.BaseClass - Before navigating to {url}
+2023-09-01 19:41:37,322 [main] INFO  base.BaseClass - Navigated to {url}
+2023-09-01 19:41:37,349 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:41:37,374 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:41:37,380 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:41:37,398 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:41:37,398 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:41:37,413 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:41:37,579 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-01 19:41:37,634 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-01 19:41:37,639 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:41:42,448 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:41:43,448 [main] INFO  XGLT_6693_Test - closing up browser
+2023-09-01 19:41:44,219 [main] ERROR org.testng.reporters.jq.Main - D:\XGL Final\XGLFinal\target\surefire-reports\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: D:\XGL Final\XGLFinal\target\surefire-reports\jquery-3.6.0.min.js
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.nio.file.Files.copy(Files.java:3159) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324) [surefire-testng-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74) [surefire-testng-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123) [surefire-testng-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+2023-09-01 19:42:55,903 [main] INFO  base.BaseClass - Login to XGL
+2023-09-01 19:42:55,905 [main] INFO  XGLT_6693_Test - Setting up browser
+2023-09-01 19:42:56,268 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+2023-09-01 19:42:56,296 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dP-PL\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+2023-09-01 19:42:58,343 [main] INFO  base.BaseClass - Before navigating to {url}
+2023-09-01 19:43:02,812 [main] INFO  base.BaseClass - Navigated to {url}
+2023-09-01 19:43:02,842 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:43:02,872 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:43:02,880 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:43:02,905 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:43:02,906 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:43:02,933 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:43:03,094 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-01 19:43:03,146 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-01 19:43:03,152 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:43:09,023 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:43:09,095 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:43:09,113 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:43:09,114 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-01 19:43:09,156 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-01 19:43:09,156 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:43:42,600 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:43:42,601 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:43:42,628 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:43:42,629 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:43:42,647 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:43:42,647 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:43:42,666 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:43:42,666 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:43:42,683 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:43:42,683 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:43:42,700 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:43:42,700 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:43:42,717 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:43:42,718 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:43:42,752 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:43:42,753 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:43:42,820 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:43:42,820 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:43:42,867 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:43:42,868 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:43:42,882 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:43:42,883 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:44:33,280 [main] INFO  XGLT_6693_Test - closing up browser
+2023-09-01 19:44:35,052 [main] ERROR org.testng.reporters.jq.Main - D:\XGL Final\XGLFinal\target\surefire-reports\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: D:\XGL Final\XGLFinal\target\surefire-reports\jquery-3.6.0.min.js
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.nio.file.Files.copy(Files.java:3159) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324) [surefire-testng-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74) [surefire-testng-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123) [surefire-testng-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+2023-09-01 19:45:32,993 [main] INFO  base.BaseClass - Login to XGL
+2023-09-01 19:45:32,995 [main] INFO  XGLT_6693_Test - Setting up browser
+2023-09-01 19:45:33,365 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+2023-09-01 19:45:33,397 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dP-PL\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+2023-09-01 19:45:34,960 [main] INFO  base.BaseClass - Before navigating to {url}
+2023-09-01 19:45:39,418 [main] INFO  base.BaseClass - Navigated to {url}
+2023-09-01 19:45:39,442 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:45:39,470 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:45:39,476 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:45:39,494 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:45:39,494 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:45:39,508 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:45:39,636 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-01 19:45:39,682 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-01 19:45:39,685 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:45:48,835 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:45:48,927 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:45:48,943 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:45:48,943 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:46:39,412 [main] INFO  XGLT_6693_Test - closing up browser
+2023-09-01 19:46:41,192 [main] ERROR org.testng.reporters.jq.Main - D:\XGL Final\XGLFinal\target\surefire-reports\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: D:\XGL Final\XGLFinal\target\surefire-reports\jquery-3.6.0.min.js
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.nio.file.Files.copy(Files.java:3159) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324) [surefire-testng-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74) [surefire-testng-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123) [surefire-testng-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+2023-09-01 19:48:25,691 [main] INFO  base.BaseClass - Login to XGL
+2023-09-01 19:48:25,694 [main] INFO  XGLT_6693_Test - Setting up browser
+2023-09-01 19:48:26,083 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+2023-09-01 19:48:26,116 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dP-PL\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+2023-09-01 19:48:28,108 [main] INFO  base.BaseClass - Before navigating to {url}
+2023-09-01 19:48:33,115 [main] INFO  base.BaseClass - Navigated to {url}
+2023-09-01 19:48:33,141 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:48:33,160 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:48:33,167 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:48:33,195 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:48:33,196 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:48:33,215 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:48:33,417 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-01 19:48:33,483 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-01 19:48:33,489 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:48:37,023 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:48:37,100 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:48:37,121 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:48:37,121 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-01 19:48:37,178 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-01 19:48:37,178 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:49:27,559 [main] INFO  XGLT_6693_Test - closing up browser
+2023-09-01 19:49:28,350 [main] ERROR org.testng.reporters.jq.Main - D:\XGL Final\XGLFinal\target\surefire-reports\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: D:\XGL Final\XGLFinal\target\surefire-reports\jquery-3.6.0.min.js
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.nio.file.Files.copy(Files.java:3159) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324) [surefire-testng-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74) [surefire-testng-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123) [surefire-testng-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+2023-09-01 19:51:51,558 [main] INFO  base.BaseClass - Login to XGL
+2023-09-01 19:51:51,560 [main] INFO  XGLT_6693_Test - Setting up browser
+2023-09-01 19:51:51,927 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+2023-09-01 19:51:51,966 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dP-PL\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+2023-09-01 19:51:54,448 [main] INFO  base.BaseClass - Before navigating to {url}
+2023-09-01 19:51:58,369 [main] INFO  base.BaseClass - Navigated to {url}
+2023-09-01 19:51:58,395 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:51:58,418 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:51:58,423 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:51:58,451 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:51:58,452 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:51:58,481 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:51:58,629 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-01 19:51:58,677 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-01 19:51:58,683 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:52:06,048 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:52:06,124 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:52:06,145 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:52:06,145 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-01 19:52:06,214 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-01 19:52:06,214 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:52:56,489 [main] INFO  XGLT_6693_Test - closing up browser
+2023-09-01 19:52:57,222 [main] ERROR org.testng.reporters.jq.Main - D:\XGL Final\XGLFinal\target\surefire-reports\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: D:\XGL Final\XGLFinal\target\surefire-reports\jquery-3.6.0.min.js
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.nio.file.Files.copy(Files.java:3159) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324) [surefire-testng-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74) [surefire-testng-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123) [surefire-testng-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+2023-09-01 19:58:49,097 [main] INFO  base.BaseClass - Login to XGL
+2023-09-01 19:58:49,100 [main] INFO  XGLT_6693_Test - Setting up browser
+2023-09-01 19:58:49,450 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+2023-09-01 19:58:49,484 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dP-PL\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+2023-09-01 19:58:50,847 [main] INFO  base.BaseClass - Before navigating to {url}
+2023-09-01 19:58:55,100 [main] INFO  base.BaseClass - Navigated to {url}
+2023-09-01 19:58:55,128 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:58:55,153 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:58:55,159 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:58:55,176 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:58:55,176 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:58:55,192 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:58:55,330 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-01 19:58:55,379 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-01 19:58:55,383 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:59:07,074 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:59:07,167 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 19:59:07,186 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 19:59:07,186 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-01 19:59:07,231 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-01 19:59:07,697 [main] INFO  XGLT_6693_Test - closing up browser
+2023-09-01 19:59:08,422 [main] ERROR org.testng.reporters.jq.Main - D:\XGL Final\XGLFinal\target\surefire-reports\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: D:\XGL Final\XGLFinal\target\surefire-reports\jquery-3.6.0.min.js
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.nio.file.Files.copy(Files.java:3159) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324) [surefire-testng-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74) [surefire-testng-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123) [surefire-testng-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+2023-09-01 20:23:36,014 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\XGL Final\XGLFinal\Testng\testng.xml
+
+2023-09-01 20:23:36,069 [main] INFO  base.BaseClass - Login to XGL
+2023-09-01 20:23:36,069 [main] INFO  XGLT_6693_Test - Setting up browser
+2023-09-01 20:23:36,440 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+2023-09-01 20:23:36,472 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dP-PL\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+2023-09-01 20:23:38,020 [main] INFO  base.BaseClass - Before navigating to {url}
+2023-09-01 20:23:42,459 [main] INFO  base.BaseClass - Navigated to {url}
+2023-09-01 20:23:42,486 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:23:42,515 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:23:42,522 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:23:42,548 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:23:42,548 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:23:42,575 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:23:42,759 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-01 20:23:42,807 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-01 20:23:42,811 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:23:48,007 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:23:48,087 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:23:48,109 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:23:48,109 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-01 20:23:48,171 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-01 20:23:48,563 [main] INFO  XGLT_6693_Test - closing up browser
+2023-09-01 20:27:45,877 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\XGL Final\XGLFinal\Testng\testng.xml
+
+2023-09-01 20:27:45,926 [main] INFO  base.BaseClass - Login to XGL
+2023-09-01 20:27:45,926 [main] INFO  XGLT_6693_Test - Setting up browser
+2023-09-01 20:27:46,288 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+2023-09-01 20:27:46,326 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dP-PL\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+2023-09-01 20:27:47,840 [main] INFO  base.BaseClass - Before navigating to {url}
+2023-09-01 20:27:52,500 [main] INFO  base.BaseClass - Navigated to {url}
+2023-09-01 20:27:52,524 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:27:52,552 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:27:52,561 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:27:52,589 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:27:52,589 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:27:52,610 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:27:52,794 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-01 20:27:52,869 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-01 20:27:52,873 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:28:03,858 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:28:03,935 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:28:03,955 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:28:03,955 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-01 20:28:04,002 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-01 20:28:04,005 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:28:04,016 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:28:04,375 [main] INFO  XGLT_6693_Test - closing up browser
+2023-09-01 20:29:04,687 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\XGL Final\XGLFinal\Testng\testng.xml
+
+2023-09-01 20:29:04,742 [main] INFO  base.BaseClass - Login to XGL
+2023-09-01 20:29:04,743 [main] INFO  XGLT_6693_Test - Setting up browser
+2023-09-01 20:29:05,111 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+2023-09-01 20:29:05,139 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dP-PL\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+2023-09-01 20:29:06,562 [main] INFO  base.BaseClass - Before navigating to {url}
+2023-09-01 20:29:10,213 [main] INFO  base.BaseClass - Navigated to {url}
+2023-09-01 20:29:10,236 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:29:10,258 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:29:10,264 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:29:10,280 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:29:10,281 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:29:10,310 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:29:10,499 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-01 20:29:10,549 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-01 20:29:10,552 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:29:20,929 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:29:21,019 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:29:21,039 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:29:21,039 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-01 20:29:21,092 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-01 20:29:21,095 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:29:21,109 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:35:04,798 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\XGL Final\XGLFinal\Testng\testng.xml
+
+2023-09-01 20:35:04,847 [main] INFO  base.BaseClass - Login to XGL
+2023-09-01 20:35:04,847 [main] INFO  XGLT_6693_Test - Setting up browser
+2023-09-01 20:35:05,217 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+2023-09-01 20:35:05,253 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dP-PL\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+2023-09-01 20:35:07,755 [main] INFO  base.BaseClass - Before navigating to {url}
+2023-09-01 20:35:12,441 [main] INFO  base.BaseClass - Navigated to {url}
+2023-09-01 20:35:12,495 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:35:12,551 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:35:12,568 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:35:12,619 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:35:12,620 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:35:12,662 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:35:12,917 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-01 20:35:12,965 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-01 20:35:12,967 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:35:17,571 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:35:17,649 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:35:17,673 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:35:17,757 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:35:17,770 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:35:17,770 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-01 20:35:18,081 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-01 20:35:18,083 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:35:18,098 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:37:38,577 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\XGL Final\XGLFinal\Testng\testng.xml
+
+2023-09-01 20:37:38,627 [main] INFO  base.BaseClass - Login to XGL
+2023-09-01 20:37:38,627 [main] INFO  XGLT_6693_Test - Setting up browser
+2023-09-01 20:37:38,991 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+2023-09-01 20:37:39,020 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dP-PL\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+2023-09-01 20:37:40,881 [main] INFO  base.BaseClass - Before navigating to {url}
+2023-09-01 20:37:45,740 [main] INFO  base.BaseClass - Navigated to {url}
+2023-09-01 20:37:45,767 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:37:45,787 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:37:45,792 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:37:45,807 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:37:45,808 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:37:45,823 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:37:46,026 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-01 20:37:46,078 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-01 20:37:46,082 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:37:49,384 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:37:49,467 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:37:49,487 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:37:49,503 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:37:49,514 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:37:49,515 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-01 20:37:49,567 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-01 20:38:39,430 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\XGL Final\XGLFinal\Testng\testng.xml
+
+2023-09-01 20:38:39,486 [main] INFO  base.BaseClass - Login to XGL
+2023-09-01 20:38:39,486 [main] INFO  XGLT_6693_Test - Setting up browser
+2023-09-01 20:38:39,862 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+2023-09-01 20:38:39,896 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dP-PL\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+2023-09-01 20:38:43,269 [main] INFO  base.BaseClass - Before navigating to {url}
+2023-09-01 20:38:47,964 [main] INFO  base.BaseClass - Navigated to {url}
+2023-09-01 20:38:47,997 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:38:48,023 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:38:48,031 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:38:48,052 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:38:48,053 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:38:48,072 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:38:48,230 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-01 20:38:48,284 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-01 20:38:48,288 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:38:59,773 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:38:59,853 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:38:59,872 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:38:59,890 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:38:59,907 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:39:38,363 [main] INFO  base.BaseClass - Login to XGL
+2023-09-01 20:39:38,366 [main] INFO  XGLT_6693_Test - Setting up browser
+2023-09-01 20:39:38,770 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+2023-09-01 20:39:38,801 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dP-PL\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+2023-09-01 20:39:42,739 [main] INFO  base.BaseClass - Before navigating to {url}
+2023-09-01 20:39:47,320 [main] INFO  base.BaseClass - Navigated to {url}
+2023-09-01 20:39:47,344 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:39:47,362 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:39:47,367 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:39:47,384 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:39:47,384 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:39:47,399 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:39:47,580 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-01 20:39:47,634 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-01 20:39:47,639 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:39:53,267 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:39:53,350 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:39:53,366 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:39:53,382 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:39:53,410 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:39:53,410 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-01 20:39:53,455 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-01 20:39:53,458 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:39:53,474 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:39:54,652 [main] ERROR org.testng.reporters.jq.Main - D:\XGL Final\XGLFinal\target\surefire-reports\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: D:\XGL Final\XGLFinal\target\surefire-reports\jquery-3.6.0.min.js
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.nio.file.Files.copy(Files.java:3159) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324) [surefire-testng-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74) [surefire-testng-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123) [surefire-testng-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+2023-09-01 20:44:52,518 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\XGL Final\XGLFinal\Testng\testng.xml
+
+2023-09-01 20:44:52,570 [main] INFO  base.BaseClass - Login to XGL
+2023-09-01 20:44:52,571 [main] INFO  XGLT_6693_Test - Setting up browser
+2023-09-01 20:44:54,748 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+2023-09-01 20:44:54,768 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dP-PL\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+2023-09-01 20:44:56,489 [main] INFO  base.BaseClass - Before navigating to {url}
+2023-09-01 20:45:02,520 [main] INFO  base.BaseClass - Navigated to {url}
+2023-09-01 20:45:02,548 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:45:02,576 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:45:02,584 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:45:02,613 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:45:02,614 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:45:02,642 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:45:02,923 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-01 20:45:03,015 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-01 20:45:03,020 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:45:08,167 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:45:08,244 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:45:08,264 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:45:08,277 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:45:08,289 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:45:08,291 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-01 20:45:08,342 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-01 20:45:08,345 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:45:08,357 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:52:02,902 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\XGL Final\XGLFinal\Testng\testng.xml
+
+2023-09-01 20:52:02,954 [main] INFO  base.BaseClass - Login to XGL
+2023-09-01 20:52:02,954 [main] INFO  XGLT_6693_Test - Setting up browser
+2023-09-01 20:52:03,332 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+2023-09-01 20:52:03,372 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dP-PL\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+2023-09-01 20:52:06,615 [main] INFO  base.BaseClass - Before navigating to {url}
+2023-09-01 20:52:10,772 [main] INFO  base.BaseClass - Navigated to {url}
+2023-09-01 20:52:10,836 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:52:10,869 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:52:10,876 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:52:10,891 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:52:10,891 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:52:10,906 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:52:11,060 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-01 20:52:11,112 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-01 20:52:11,116 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:52:17,088 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:52:17,170 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:52:17,188 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:52:17,599 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:52:17,613 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:52:18,628 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:52:18,652 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:53:34,796 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\XGL Final\XGLFinal\Testng\testng.xml
+
+2023-09-01 20:53:34,853 [main] INFO  base.BaseClass - Login to XGL
+2023-09-01 20:53:34,853 [main] INFO  XGLT_6693_Test - Setting up browser
+2023-09-01 20:53:35,229 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+2023-09-01 20:53:35,260 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dP-PL\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+2023-09-01 20:53:37,528 [main] INFO  base.BaseClass - Before navigating to {url}
+2023-09-01 20:53:42,461 [main] INFO  base.BaseClass - Navigated to {url}
+2023-09-01 20:53:42,486 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:53:42,511 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:53:42,520 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:53:42,549 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:53:42,549 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:53:42,578 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:53:42,857 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-01 20:53:42,903 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-01 20:53:42,906 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:53:46,388 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:53:46,468 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:53:46,490 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:53:46,519 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:53:46,534 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:53:47,559 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:53:47,651 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:56:30,073 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\XGL Final\XGLFinal\Testng\testng.xml
+
+2023-09-01 20:56:30,137 [main] INFO  base.BaseClass - Login to XGL
+2023-09-01 20:56:30,137 [main] INFO  XGLT_6693_Test - Setting up browser
+2023-09-01 20:56:30,527 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+2023-09-01 20:56:30,559 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dP-PL\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+2023-09-01 20:56:32,409 [main] INFO  base.BaseClass - Before navigating to {url}
+2023-09-01 20:56:37,793 [main] INFO  base.BaseClass - Navigated to {url}
+2023-09-01 20:56:37,815 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:56:37,833 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:56:37,842 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:56:37,859 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:56:37,860 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:56:37,878 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:56:38,125 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-01 20:56:38,170 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-01 20:56:38,173 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:56:44,132 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:56:44,212 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:56:44,228 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:56:44,246 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:56:44,259 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:56:44,276 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:56:44,488 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:56:45,524 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:56:45,604 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:57:39,031 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\XGL Final\XGLFinal\Testng\testng.xml
+
+2023-09-01 20:57:39,087 [main] INFO  base.BaseClass - Login to XGL
+2023-09-01 20:57:39,087 [main] INFO  XGLT_6693_Test - Setting up browser
+2023-09-01 20:57:43,109 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 116.0.1938.69 (resolved driver for Edge 116)
+2023-09-01 20:57:43,147 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Reading https://msedgedriver.azureedge.net/?restype=container&comp=list to seek msedgedriver
+2023-09-01 20:57:48,010 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://msedgedriver.azureedge.net/116.0.1938.69/edgedriver_win64.zip
+2023-09-01 20:57:53,727 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file edgedriver_win64.zip
+2023-09-01 20:57:53,910 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\dP-PL\.cache\selenium\msedgedriver\win64\116.0.1938.69\msedgedriver.exe
+2023-09-01 20:58:02,304 [main] INFO  base.BaseClass - Before navigating to {url}
+2023-09-01 20:58:07,937 [main] INFO  base.BaseClass - Navigated to {url}
+2023-09-01 20:58:07,978 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:58:08,002 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:58:08,008 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:58:08,032 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:58:08,034 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:58:08,055 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:58:08,233 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-01 20:58:08,281 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-01 20:58:08,284 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:58:19,747 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:58:19,820 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:58:19,843 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:58:19,864 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:58:19,876 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:58:19,892 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:58:19,906 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 20:58:20,926 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 20:58:21,014 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 21:11:17,832 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\XGL Final\XGLFinal\Testng\testng.xml
+
+2023-09-01 21:11:17,879 [main] INFO  base.BaseClass - Login to XGL
+2023-09-01 21:11:17,880 [main] INFO  XGLT_6693_Test - Setting up browser
+2023-09-01 21:11:18,237 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 116.0.1938.69 (resolved driver for Edge 116)
+2023-09-01 21:11:18,266 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\dP-PL\.cache\selenium\msedgedriver\win64\116.0.1938.69\msedgedriver.exe
+2023-09-01 21:11:21,950 [main] INFO  base.BaseClass - Before navigating to {url}
+2023-09-01 21:11:28,626 [main] INFO  base.BaseClass - Navigated to {url}
+2023-09-01 21:11:28,644 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 21:11:28,662 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 21:11:28,670 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 21:11:28,690 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 21:11:28,690 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 21:11:28,716 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 21:11:28,933 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-01 21:11:29,006 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-01 21:11:29,011 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 21:11:34,677 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 21:11:34,749 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 21:11:34,765 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 21:11:34,782 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 21:11:34,793 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 21:11:34,807 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 21:11:34,818 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 21:11:35,830 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 21:11:35,909 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 21:11:36,009 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 21:11:36,080 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 21:12:21,682 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\XGL Final\XGLFinal\Testng\testng.xml
+
+2023-09-01 21:12:21,733 [main] INFO  base.BaseClass - Login to XGL
+2023-09-01 21:12:21,733 [main] INFO  XGLT_6693_Test - Setting up browser
+2023-09-01 21:12:22,092 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 116.0.1938.69 (resolved driver for Edge 116)
+2023-09-01 21:12:22,124 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\dP-PL\.cache\selenium\msedgedriver\win64\116.0.1938.69\msedgedriver.exe
+2023-09-01 21:12:26,069 [main] INFO  base.BaseClass - Before navigating to {url}
+2023-09-01 21:12:35,893 [main] INFO  base.BaseClass - Navigated to {url}
+2023-09-01 21:12:35,918 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 21:12:35,945 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 21:12:35,953 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 21:12:35,979 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 21:12:35,980 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 21:12:36,008 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 21:12:36,236 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-01 21:12:36,279 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-01 21:12:36,284 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 21:12:42,238 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 21:12:42,311 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 21:12:42,332 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 21:12:42,347 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 21:12:42,383 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 21:12:42,396 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 21:12:42,407 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 21:12:43,424 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 21:12:43,506 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 21:12:43,581 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 21:12:43,594 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 21:13:05,293 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\XGL Final\XGLFinal\Testng\testng.xml
+
+2023-09-01 21:13:05,348 [main] INFO  base.BaseClass - Login to XGL
+2023-09-01 21:13:05,348 [main] INFO  XGLT_6693_Test - Setting up browser
+2023-09-01 21:13:05,698 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+2023-09-01 21:13:05,728 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dP-PL\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+2023-09-01 21:13:07,683 [main] INFO  base.BaseClass - Before navigating to {url}
+2023-09-01 21:13:14,517 [main] INFO  base.BaseClass - Navigated to {url}
+2023-09-01 21:13:14,546 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 21:13:14,574 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 21:13:14,584 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 21:13:14,610 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 21:13:14,610 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 21:13:14,637 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 21:13:14,841 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-01 21:13:14,886 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-01 21:13:14,889 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 21:13:18,714 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 21:13:18,787 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 21:13:18,805 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 21:13:18,820 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 21:13:18,833 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 21:13:18,845 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 21:13:18,857 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 21:13:19,879 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 21:13:19,971 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 21:13:20,072 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 21:13:20,153 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 21:14:05,665 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\XGL Final\XGLFinal\Testng\testng.xml
+
+2023-09-01 21:14:05,715 [main] INFO  base.BaseClass - Login to XGL
+2023-09-01 21:14:05,715 [main] INFO  XGLT_6693_Test - Setting up browser
+2023-09-01 21:14:06,068 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+2023-09-01 21:14:06,102 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dP-PL\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+2023-09-01 21:14:08,164 [main] INFO  base.BaseClass - Before navigating to {url}
+2023-09-01 21:14:13,821 [main] INFO  base.BaseClass - Navigated to {url}
+2023-09-01 21:14:13,851 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 21:14:13,885 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 21:14:13,895 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 21:14:13,919 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 21:14:13,920 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 21:14:13,946 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 21:14:14,125 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-01 21:14:14,173 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-01 21:14:14,176 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 21:14:25,869 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 21:14:25,943 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 21:14:25,963 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 21:14:25,980 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 21:14:25,993 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 21:14:26,006 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 21:14:26,016 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 21:14:27,034 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 21:14:27,118 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 21:14:27,217 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 21:14:27,304 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 21:14:27,382 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-01 21:14:27,393 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-01 21:14:27,394 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}

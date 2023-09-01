@@ -10,7 +10,7 @@ public class JavaScriptExecutor extends BaseClass
 {
     JavascriptExecutor js = (JavascriptExecutor) driver;
 
-    public void clickElementByJS(By ele)
+    public void clickElementByJS(WebElement ele)
     {
         js.executeScript("arguments[0].click();",ele);
 

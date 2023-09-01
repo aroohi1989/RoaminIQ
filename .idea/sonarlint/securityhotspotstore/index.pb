@@ -15,8 +15,6 @@ W
 'src/main/java/helper/File_Archieve.java,3\f\3fc0ed1a2bf514e5a3c0ecca6dfe9d642394cc0c
 [
 +src/main/java/wrapper/WebDriverWrapper.java,4\c\4c42e878c6cd17e7be6af7c0a2b50a3972f89205
-\
-,src/main/java/helper/JavaScriptExecutor.java,d\1\d11652c308c81b2d46e574cab3e3e6a0b73978ac
 b
 2src/main/java/dataProvider/CaselessProperties.java,5\6\56c3c18cefb1e5846038d504c217ca54f6bd26cc
 \
@@ -95,8 +93,6 @@ Q
 !src/test/java/Create_Network.java,8\8\8869ebe6fbb3993774f196dafce9ae63a0f61d9b
 
 Q.idea/sonarlint/securityhotspotstore/2/3/235a7b015949b57db55a34e9fd481bda167f4423,4\9\4974c58cced36ce497e396ee4dd1b8f19c17febb
-A
-Testng/testng.xml,0\d\0d56ab1580ad1ef0d956993acbf67e2b7f9a46a4
 w
 G.idea/sonarlint/issuestore/b/0/b08d066da078d8d5628b02c974deaf72b904fd31,2\e\2e3be999b643e6c5a0e3eeaa75cf04650ef84c76
 K
@@ -153,15 +149,9 @@ _
 /test-output/old/Command line suite/classes.html,5\8\586464e5057ba028d907348091b2d66ab6143fe9
 o
 ?test-output/old/Command line suite/Command line test.properties,6\e\6ee5326f8a38a8380e8d66ab688f0e755416f3a0
-R
-"src/test/java/XGLT_15177_Test.java,5\1\5156c251e269cbd188775f1f1470679fc73aac97
 `
 0src/main/java/browserfactory/BrowserFactory.java,b\f\bfdd9742c0a8ba7a848518a372bb21a7e823b88a
 >
 LearnMaven.iml,2\d\2deb4d70db04a3558b5ae83a61c58371fd71c570
-7
-pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-F
-configs/log4j/logs.log,e\7\e7feab0017b6f4c1b5ee16c92b49463e2d4e9064
 X
 (src/main/java/ORParcer/XMLParserSAX.java,d\3\d3db40f3875e0114a0a3386b5d04318886a089b8

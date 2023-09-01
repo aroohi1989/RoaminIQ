@@ -12,9 +12,9 @@
         <parameter name="browser" value="Chrome"></parameter>
         <parameter name="inventorytype" value="DEFAULT | Default (unallocated)Inventory"></parameter>
         <classes>
-            <class name="XGLT_15177_Test"/>
+            <!--class name="XGLT_15177_Test"/-->
             <!--class name="Create_Network"/-->
-            <!--class name="Test_DB"/-->
+            <class name="XGLT_6693_Test"/>
             <!--class name="Network_programbreakformat"/-->
         </classes>
     </test>

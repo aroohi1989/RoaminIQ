@@ -98,7 +98,7 @@ public class RespositoryParser extends BaseClass
                 locator = driver.findElements(By.xpath(locatorValue));
                 break;
             default:
-                //log.error("Object locator not found in the case");
+                logger.error("Object locator not found in the case");
         }
         return locator;
     }
