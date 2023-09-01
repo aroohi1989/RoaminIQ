@@ -23,8 +23,6 @@ b
 ,src/main/java/listners/WebEventListener.java,7\2\72fc4d88b9810bd8054a9fd0d4c9fdbb529cdbc2
 S
 #src/test/java/Import_Schedules.java,e\a\ea5d0cde2c8c67ebcc72388291f9d634d73bcb7d
-Q
-!src/main/java/helper/Utility.java,4\f\4f8cf464663769db8d99c52a7d43ab38b154c39d
 _
 /src/test/java/BillingSubmission_Permission.java,0\b\0b43956cebd235de1520d24b344250ef5de48cd4
 Z
@@ -83,8 +81,6 @@ t
 D.idea/libraries/Maven__com_oracle_database_jdbc_ojdbc11_23_2_0_0.xml,9\a\9acb315555ba6eda1e33d1847902769520946a65
 O
 src/test/java/TestngRunner.java,f\1\f198001667b28cc9218f028853d578bc533a3a4f
-
-Q.idea/sonarlint/securityhotspotstore/b/f/bfdd9742c0a8ba7a848518a372bb21a7e823b88a,5\f\5f7596485b6b6cc3c3079589b0f579d55a2480c5
 w
 G.idea/sonarlint/issuestore/4/c/4c42e878c6cd17e7be6af7c0a2b50a3972f89205,c\1\c1f278aee858d718e80340c99bac04156867c5af
 
@@ -157,3 +153,15 @@ _
 /test-output/old/Command line suite/classes.html,5\8\586464e5057ba028d907348091b2d66ab6143fe9
 o
 ?test-output/old/Command line suite/Command line test.properties,6\e\6ee5326f8a38a8380e8d66ab688f0e755416f3a0
+R
+"src/test/java/XGLT_15177_Test.java,5\1\5156c251e269cbd188775f1f1470679fc73aac97
+`
+0src/main/java/browserfactory/BrowserFactory.java,b\f\bfdd9742c0a8ba7a848518a372bb21a7e823b88a
+>
+LearnMaven.iml,2\d\2deb4d70db04a3558b5ae83a61c58371fd71c570
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+F
+configs/log4j/logs.log,e\7\e7feab0017b6f4c1b5ee16c92b49463e2d4e9064
+X
+(src/main/java/ORParcer/XMLParserSAX.java,d\3\d3db40f3875e0114a0a3386b5d04318886a089b8
