@@ -5,6 +5,7 @@ import base.BaseClass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -14,11 +15,11 @@ import java.time.Duration;
 public class LoginPage extends BaseClass
 {
     WebDriverWait wait;
-    //@FindBy(xpath = "//input[@id='login.login']")
+    @FindBy(xpath = "//input[@id='login.login']")
     WebElement user;
-    //@FindBy(xpath = "//input[@id='login.password']")
+    @FindBy(xpath = "//input[@id='login.password']")
     WebElement passwd;
-    //@FindBy(xpath = "//button[@id='login.loginButton']")
+    @FindBy(xpath = "//button[@id='login.loginButton']")
     WebElement login;
     public By getMissionControl()
     {
@@ -28,9 +29,11 @@ public class LoginPage extends BaseClass
     {
         this.driver=driver;
         PageFactory.initElements(driver, this);
-         user=driver.findElement(parser.getobjectLocator("user"));
-         passwd=driver.findElement(parser.getobjectLocator("passwd"));
-         login=driver.findElement(parser.getobjectLocator("login"));
+    }
+    public LoginPage(WebDriver driver)
+    {
+        this.driver=driver;
+        PageFactory.initElements(driver, this);
     }
 
     public void setUserName(String szusername){

@@ -1,5 +1,6 @@
 import base.BaseClass;
 import dataProvider.ConfigReader;
+import helper.BrowserUtilities;
 import helper.JavaScriptExecutor;
 import helper.ScreenshotUtility;
 import org.openqa.selenium.By;
@@ -18,32 +19,19 @@ public class XGLT_6693_Test extends BaseClass
     @Test(priority = 2,enabled = true)
     public void MissonControlReset()
     {
-
-        MCSettingsPage mc= new MCSettingsPage(driver,parser);
+        MCSettingsPage mc= new MCSettingsPage(driver);
         mc.addwait(mc.mcsettingbtn);
-
-        Dimension dimensions = mc.mcsettingbtn.getSize();
-        int width = dimensions.getWidth();
-        int height = dimensions.getHeight();
-
-        System.out.println("width "+width);
-        System.out.println("Height "+height);
-
-       /* mc.openMcSettings();
-        System.out.println("Clcked by webdriver");
-        mc.addwait(mc.mcsettingbtn);*/
-
-        JavaScriptExecutor js= new JavaScriptExecutor();
-        js.clickElementByJS(mc.mcsettingbtn);
-        System.out.println("clicked by js");
-        js.highlightElement(mc.mcsettingbtn, ConfigReader.getPropertyvalue("Style"));
-        js.clickElementByJS(mc.mcsettingbtn);
+        mc.openMcSettings();
         mc.resetSettings();
+        mc.addwait(mc.mcsettingbtn);
+        BrowserUtilities bu= new BrowserUtilities();
+        bu.refreshbrowser();
         mc.openMcSettings();
         mc.setMcsettingfirstvalue(ConfigReader.getPropertyvalue("missioncontrolvalue"));
         mc.addwait(mc.mcsettingPopup);
         mc.saveMcSettings();
-        Assert.assertTrue(mc.verifymcvalueset());
+        mc.addwait(mc.mcsettingbtn);
+        Assert.assertTrue(mc.verifymcvalueset(ConfigReader.getPropertyvalue("missioncontrolvalue")));
         Reporter.log("Pass: Test XGLT-6693");
     }
 

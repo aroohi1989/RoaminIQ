@@ -13,8 +13,6 @@ Q.idea/sonarlint/securityhotspotstore/6/9/69dc6121d3f9700ecf0c1eaee68c7ebea2fbb3
 Q.idea/sonarlint/securityhotspotstore/0/b/0b43956cebd235de1520d24b344250ef5de48cd4,0\e\0ecc7be62b8f42a5d8bdb78f2b9148fa336a6a7e
 W
 'src/main/java/helper/File_Archieve.java,3\f\3fc0ed1a2bf514e5a3c0ecca6dfe9d642394cc0c
-[
-+src/main/java/wrapper/WebDriverWrapper.java,4\c\4c42e878c6cd17e7be6af7c0a2b50a3972f89205
 b
 2src/main/java/dataProvider/CaselessProperties.java,5\6\56c3c18cefb1e5846038d504c217ca54f6bd26cc
 \
@@ -33,8 +31,6 @@ b
 +src/main/java/dataProvider/ExcelReader.java,0\7\07a1f55c3c640887244bb95ce48bab68004c8d12
 U
 %src/main/java/helper/DateUtility.java,3\b\3b794890ebfb2331f2472b9c1fbe951d2b97df8d
-\
-,src/main/java/dataProvider/ConfigReader.java,f\c\fc3258a76b3ddd55d20c098362512da4fe16dbb5
 Å
 Q.idea/sonarlint/securityhotspotstore/7/2/72fc4d88b9810bd8054a9fd0d4c9fdbb529cdbc2,a\f\af1f121df5cbdb40c2a8a601b23173a4d4b2a268
 a
@@ -155,3 +151,11 @@ o
 LearnMaven.iml,2\d\2deb4d70db04a3558b5ae83a61c58371fd71c570
 X
 (src/main/java/ORParcer/XMLParserSAX.java,d\3\d3db40f3875e0114a0a3386b5d04318886a089b8
+S
+#src/test/java/XglRotationGroup.java,e\7\e790972c6091a94228a40cf891fa4842279c61cf
+P
+ src/test/java/SeleniumTest1.java,d\b\db26a7a86d5a882b76226aa9b140b0c58a21e9c7
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+F
+configs/log4j/logs.log,e\7\e7feab0017b6f4c1b5ee16c92b49463e2d4e9064

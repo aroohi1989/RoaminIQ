@@ -3,6 +3,8 @@ package pages;
 import ORParcer.RespositoryParser;
 import base.BaseClass;
 import dataProvider.ConfigReader;
+import helper.JavaScriptExecutor;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -58,7 +60,10 @@ public class MCSettingsPage extends BaseClass
 
     @FindBy(xpath = "//h2[contains(@class,'ng-binding')]")
     WebElement mcheadersQuadrants;
-
+    public MCSettingsPage(WebDriver driver) {
+        this.driver = driver;
+        PageFactory.initElements(driver, this);
+    }
     public MCSettingsPage(WebDriver driver, RespositoryParser parser)
     {
         this.driver=driver;
@@ -82,11 +87,13 @@ public class MCSettingsPage extends BaseClass
     }
     public void openMcSettings()
     {
-        mcsettingbtn.click();
+        JavaScriptExecutor js= new JavaScriptExecutor();
+        js.clickElementByJS(mcsettingbtn);
+        js.highlightElement(mcsettingbtn, ConfigReader.getPropertyvalue("Style"));
+        js.clickElementByJS(mcsettingbtn);
     }
     public void resetSettings()
     {
-        mcsettingbtn.click();
         addwait(mcsettingreset);
         mcsettingreset.click();
     }
@@ -97,29 +104,44 @@ public class MCSettingsPage extends BaseClass
     public void setMcsettingfirstvalue(String widgetValue)
     {
         mcsettingfirstbtn.click();
-        if(mcdropdownoptions.isDisplayed())
-        {
-           List<WebElement> option=driver.findElements(parser.getobjectLocator("mcdropdownoptions"));
+           List<WebElement> option=driver.findElements(By.xpath("//div[@class='dropDown']/div"));
             for (WebElement ele :option)
             {
-                if(ele.getAttribute("InnerHTML").equalsIgnoreCase(widgetValue))
+               if(ele.getText().equalsIgnoreCase(widgetValue))
                 {
                     ele.click();
                     break;
                 }
             }
-        }
     }
 
-    public boolean verifymcvalueset()
+    public boolean verifymcvalueset(String mcValue)
     {
         Boolean flag=false;
-        List<WebElement> ele=driver.findElements(parser.getobjectLocator("mcheadersQuadrants"));
-        if(ele.get(0).getText().equalsIgnoreCase(ConfigReader.getPropertyvalue("missioncontrolvalue")))
+        WebElement ele = null;
+        String str=ConfigReader.getPropertyvalue("missioncontrolvalue");
+        if(str.equalsIgnoreCase("Ad Copy Handling")|| str.equalsIgnoreCase("Ad Copy Status")
+        || str.equalsIgnoreCase("Customers") || str.equalsIgnoreCase("Network Instance Status")
+        || str.equalsIgnoreCase("Users"))
         {
-            flag=true;
+             ele=driver.findElement(By.xpath("//div[contains(@ng-if,'firstQuadrantWidget.value')]/div/h2"));
+        } 
+        else if (str.equalsIgnoreCase("Data Governance") || str.equalsIgnoreCase("Finance") ||
+        str.equalsIgnoreCase("Programming/Allocation Jobs") || str.equalsIgnoreCase("Reconciliation")
+                || str.equalsIgnoreCase("Scheduling Information"))
+        {
+             ele=driver.findElement(By.xpath("//div[contains(@ng-if,'firstQuadrantWidget.value')]/div/div/h2"));
+        } else if (str.equalsIgnoreCase("Order Lines Overview"))
+        {
+            ele=driver.findElement(By.xpath("//div[contains(@ng-if,'firstQuadrantWidget.value')]/div/div/div/div/div/h2"));
+        } 
+
+        if(ele.getText().equalsIgnoreCase(mcValue))
+        {
+                flag=true;
         }
         return flag;
+
     }
 
     public void addwait(WebElement ele)

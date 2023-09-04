@@ -13,8 +13,6 @@ W
 'src/main/java/helper/File_Archieve.java,3\f\3fc0ed1a2bf514e5a3c0ecca6dfe9d642394cc0c
 ]
 -src/test/java/Network_programbreakformat.java,f\3\f3a49dc7489f41b6347f804042bddd8b990ec844
-[
-+src/main/java/wrapper/WebDriverWrapper.java,4\c\4c42e878c6cd17e7be6af7c0a2b50a3972f89205
 b
 2src/main/java/dataProvider/CaselessProperties.java,5\6\56c3c18cefb1e5846038d504c217ca54f6bd26cc
 \
@@ -33,8 +31,6 @@ Y
 )src/main/java/listners/ExtentManager.java,e\5\e5b99b8bc16f938bd7e7116b74d5e857f8b533e9
 U
 %src/main/java/helper/DateUtility.java,3\b\3b794890ebfb2331f2472b9c1fbe951d2b97df8d
-\
-,src/main/java/dataProvider/ConfigReader.java,f\c\fc3258a76b3ddd55d20c098362512da4fe16dbb5
 Å
 Q.idea/sonarlint/securityhotspotstore/7/2/72fc4d88b9810bd8054a9fd0d4c9fdbb529cdbc2,a\f\af1f121df5cbdb40c2a8a601b23173a4d4b2a268
 Å
@@ -155,3 +151,11 @@ X
 (src/main/java/ORParcer/XMLParserSAX.java,d\3\d3db40f3875e0114a0a3386b5d04318886a089b8
 `
 0src/main/java/browserfactory/BrowserFactory.java,b\f\bfdd9742c0a8ba7a848518a372bb21a7e823b88a
+S
+#src/test/java/XglRotationGroup.java,e\7\e790972c6091a94228a40cf891fa4842279c61cf
+P
+ src/test/java/SeleniumTest1.java,d\b\db26a7a86d5a882b76226aa9b140b0c58a21e9c7
+F
+configs/log4j/logs.log,e\7\e7feab0017b6f4c1b5ee16c92b49463e2d4e9064
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec

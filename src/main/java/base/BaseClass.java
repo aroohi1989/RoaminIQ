@@ -67,7 +67,7 @@ public class BaseClass
     {
         logger.info("Login to XGL");
         setupBrowser();
-        LoginPage lp= new LoginPage(driver,parser);
+        LoginPage lp= new LoginPage(driver);
         lp.Login_To_Application(uname,pwrd);
         lp.addwait();
         Assert.assertTrue(driver.getCurrentUrl().contains("MissionControl"),"Login failed");
@@ -77,7 +77,7 @@ public class BaseClass
     {
         LoginXGL(ConfigReader.getPropertyvalue("username"), ConfigReader.getPropertyvalue("password"));
     }
-   // @AfterClass
+    @AfterClass
     public void closeBrowser()
     {
         log.info("closing up browser");
