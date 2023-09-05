@@ -1,0 +1,6 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(öš„ôşÿÿÿÿ8­×Æ¥1
+u	java:S116"YRename this field "RepositoryFile" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×Ô÷Â8µ×Æ¥1
+U	java:S106#"9Replace this use of System.out or System.err by a logger.(®†ì½8º×Æ¥1
+X	java:S125@"<This block of commented-out lines of code should be removed.(ŞÆÄŸ8¼×Æ¥1
+U	java:S106H"9Replace this use of System.out or System.err by a logger.(®†ì½8¾×Æ¥1

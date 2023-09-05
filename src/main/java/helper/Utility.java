@@ -283,4 +283,19 @@ public class Utility extends WebDriverWrapper {
         }
 
     }
+    public static void waitForElementtoload(WebDriver driver, long maxSecondsToWait,String xpathlocator)
+    {
+        try
+        {
+            WebDriverWait wait = new WebDriverWait(driver, maxSecondsToWait);
+            wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*")));
+            log.info("Element is present");
+        }
+        catch (Exception e)
+        {
+            ExceptionHandling.handleException(e);
+            log.error("Element did not become visible within the specified time: " +e.getMessage());
+        }
+    }
+
 }
