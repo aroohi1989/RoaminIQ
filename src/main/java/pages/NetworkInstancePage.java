@@ -2,6 +2,7 @@ package pages;
 
 import ORParcer.RespositoryParser;
 import base.BaseClass;
+import helper.BrowserUtilities;
 import helper.ExceptionHandling;
 import helper.Utility;
 import org.openqa.selenium.By;
@@ -9,10 +10,17 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import static helper.Utility.waitForAllElementsToBePresent;
+import static helper.Utility.waitforPagetoLoad;
+import static helper.WaitUtility.waittillElementNotEmpty;
+import static helper.WaitUtility.waittillElementNotZero;
 
 public class NetworkInstancePage extends BaseClass
 {
@@ -52,7 +60,7 @@ public class NetworkInstancePage extends BaseClass
     WebElement save;
 
     @FindBy(xpath = "//div[contains(@ng-click,'PendingAllocation')]/div[@class='ng-binding']")
-    WebElement pendingallocation;
+    public WebElement pendingallocation;
 
     @FindBy(xpath = "//div[contains(@ng-click,'PendingBuild')]/div[@class='ng-binding']")
     WebElement pendingbuild;
@@ -81,6 +89,7 @@ public class NetworkInstancePage extends BaseClass
             if(e.getText().equalsIgnoreCase(radioOption))
             {
                 e.click();
+                break;
             }
         }
     }
@@ -115,21 +124,25 @@ public class NetworkInstancePage extends BaseClass
 
     public String getmcpendingallocationcount()
     {
+        waittillElementNotEmpty(driver,60,"//div[contains(@ng-click,'PendingAllocation')]/div[@class='ng-binding']");
         return pendingallocation.getText();
     }
     public String getactualpendingallocationcount()
     {
-        //waitForElementtoload(driver,100,"//h1[contains(text(),'Pending Allocation')]/following-sibling::h1");
         pendingallocation.click();
-        Utility ut=new Utility();
-        ut.waitforPagetoLoad(driver,50);
+        BrowserUtilities bu= new BrowserUtilities();
+        waittillElementNotZero(driver,50,"//h1[contains(text(),'Pending Allocation')]/following-sibling::h1");
         return actualPendingAllocationCount.getText();
     }
     public Boolean verifypendingallocationcount()
     {
         Boolean flag=false;
-        String str1=getmcpendingallocationcount();
+        String str1="";
+        str1=getmcpendingallocationcount();
+        System.out.println("Mc count "+str1);
+
         String str2=getactualpendingallocationcount();
+        System.out.println("Actual page count "+str2);
         if(str1.equalsIgnoreCase(str2))
         {
             flag=true;
@@ -138,28 +151,36 @@ public class NetworkInstancePage extends BaseClass
     }
     public String getmcpendingbuildcount()
     {
-        waitForElementtoload(driver,100,"//div[contains(@ng-click,'PendingBuild')]/div[@class='ng-binding']");
+        waittillElementNotEmpty(driver,60,"//div[contains(@ng-click,'PendingBuild')]/div[@class='ng-binding']");
         return pendingbuild.getText();
+    }
+    public String getactualpendingbuildcount()
+    {
+        pendingbuild.click();
+        BrowserUtilities bu= new BrowserUtilities();
+        waittillElementNotZero(driver,50,"//h1[contains(text(),'PendingBuild')]/following-sibling::h1");
+        return actualPendingBuildCount.getText();
+    }
+    public Boolean verifypendingbuildcount()
+    {
+        Boolean flag=false;
+        String str1="";
+        str1=getmcpendingbuildcount();
+        System.out.println("Mc count pending build "+str1);
+
+        String str2=getactualpendingbuildcount();
+        System.out.println("Actual page count pending build "+str2);
+        if(str1.equalsIgnoreCase(str2))
+        {
+            flag=true;
+        }
+        return flag;
     }
     public String getmcemptycount()
     {
-        waitForElementtoload(driver,100,"//div[contains(@ng-click,'Empty')]/div[@class='ng-binding']");
         return empty.getText();
     }
-    public static void waitForElementtoload(WebDriver driver, long maxSecondsToWait,String xpathlocator)
-    {
-        try
-        {
-            WebDriverWait wait = new WebDriverWait(driver, maxSecondsToWait);
-            wait.until(ExpectedConditions.elementToBeClickable(By.xpath(xpathlocator)));
-            log.info("Element is present");
-        }
-        catch (Exception e)
-        {
-            ExceptionHandling.handleException(e);
-            log.error("Element did not become visible within the specified time: " +e.getMessage());
-        }
-    }
+
 
 
 

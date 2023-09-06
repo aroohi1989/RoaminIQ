@@ -60,6 +60,11 @@ public class MCSettingsPage extends BaseClass
 
     @FindBy(xpath = "//h2[contains(@class,'ng-binding')]")
     WebElement mcheadersQuadrants;
+
+    @FindBy(xpath = "//div[@id='header.missionControl']")
+    public
+    WebElement missioncontrolHeader;
+
     public MCSettingsPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);

@@ -155,16 +155,12 @@ S
 #src/test/java/XglRotationGroup.java,e\7\e790972c6091a94228a40cf891fa4842279c61cf
 P
  src/test/java/SeleniumTest1.java,d\b\db26a7a86d5a882b76226aa9b140b0c58a21e9c7
-F
-configs/log4j/logs.log,e\7\e7feab0017b6f4c1b5ee16c92b49463e2d4e9064
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 ]
 -src/main/java/ORParcer/RespositoryParser.java,8\1\8124b7c41bf959f21fa6bcb31f1c33581c39051f
 \
 ,src/main/java/helper/JavaScriptExecutor.java,d\1\d11652c308c81b2d46e574cab3e3e6a0b73978ac
-Z
-*src/main/java/helper/BrowserUtilities.java,7\b\7b0e637bbdbdb8f764d1cd4749857a9a9efc00ab
 R
 "src/main/java/pages/AboutPage.java,7\1\71515e2d2e6763e875779ebac6d2e980a64d511a
 [
@@ -175,3 +171,9 @@ M
 configs/ObjectRepo.properties,4\5\4546d452ada598ed5fb118d89925ad8570b820f0
 R
 "src/main/java/pages/LoginPage.java,4\b\4bdc7fe650a4170fd3332cdfc4dca51f7507f98b
+\
+,src/main/java/dataProvider/ConfigReader.java,f\c\fc3258a76b3ddd55d20c098362512da4fe16dbb5
+Q
+!src/test/java/XGLT_6693_Test.java,a\e\ae2424b8a0ba8611636ac174ff933dbcbe0f20bb
+c
+3src/main/java/pages/NetworkInstanceSummaryPage.java,0\8\08d90fa61b9f5f77de314866545e99f4e6c82f8c

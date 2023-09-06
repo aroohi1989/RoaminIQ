@@ -1,0 +1,11 @@
+
+R
+java:S3252"5Use static access with "base.BaseClass" for "driver".(ÁÜÑ¥8¯ú§®¦1
+R
+java:S2209"5Change this instance-reference to a static reference.(ÁÜÑ¥8°ú§®¦1
+P
+java:S1128"3Remove this unused import 'org.openqa.selenium.By'.(ÿŠÞ›8›’®®¦1
+]
+java:S1128";Remove this unused import 'org.openqa.selenium.WebElement'.(‰ïµ”þÿÿÿÿ8úï©®¦1
+a
+java:S1128"?Remove this unused import 'org.openqa.selenium.support.FindBy'.(¶º´éùÿÿÿÿ8›’®®¦1
