@@ -112,8 +112,6 @@ Q.idea/sonarlint/securityhotspotstore/e/5/e5b99b8bc16f938bd7e7116b74d5e857f8b533
 z
 J.idea/libraries/Maven__com_microsoft_sqlserver_mssql_jdbc_12_4_0_jre11.xml,5\1\5142e9b7c0cf30e354d50fb6770c68d983f6f59b
 [
-+src/main/java/helper/ScreenshotUtility.java,0\0\0020144243771921cee68605569e66602416cc60
-[
 +test-output/old/Command line suite/toc.html,0\d\0dea9165d4629e7cfc2c3eb23f1fb161723bece1
 Å
 Q.idea/sonarlint/securityhotspotstore/3/b/3b794890ebfb2331f2472b9c1fbe951d2b97df8d,b\9\b95f358248494ced8e102ee7a8be48eaaaa881bb
@@ -165,8 +163,6 @@ R
 "src/main/java/pages/AboutPage.java,7\1\71515e2d2e6763e875779ebac6d2e980a64d511a
 [
 +src/main/java/wrapper/WebDriverWrapper.java,4\c\4c42e878c6cd17e7be6af7c0a2b50a3972f89205
-R
-"src/test/java/XGLT_15177_Test.java,5\1\5156c251e269cbd188775f1f1470679fc73aac97
 M
 configs/ObjectRepo.properties,4\5\4546d452ada598ed5fb118d89925ad8570b820f0
 R
@@ -177,3 +173,11 @@ Q
 ,src/main/java/dataProvider/ConfigReader.java,f\c\fc3258a76b3ddd55d20c098362512da4fe16dbb5
 c
 3src/main/java/pages/NetworkInstanceSummaryPage.java,0\8\08d90fa61b9f5f77de314866545e99f4e6c82f8c
+A
+Testng/testng.xml,0\d\0d56ab1580ad1ef0d956993acbf67e2b7f9a46a4
+Z
+*src/main/java/helper/BrowserUtilities.java,7\b\7b0e637bbdbdb8f764d1cd4749857a9a9efc00ab
+Q
+!src/main/java/base/BaseClass.java,a\2\a2ecdf21ff1153ba24b05ac2f5487a082ef289e7
+I
+configs/config.properties,3\b\3ba4c5470bd16d7f88e794b2192d02f020d3a0d6

@@ -63,20 +63,20 @@ public class WaitUtility extends BaseClass
         }
     }
 
-    public static void waittillElementNotloaded(WebDriver driver, long maxSecondsToWait,String xpathlocator)
+    public static void waittillElementProperty(WebDriver driver, long maxSecondsToWait,String xpathlocator)
     {
         try
         {
         WebDriverWait wait = new WebDriverWait(driver, maxSecondsToWait);
-        ExpectedCondition<Boolean> attributeNotZero = new ExpectedCondition<Boolean>() {
+        ExpectedCondition<Boolean> attributeProperty = new ExpectedCondition<Boolean>() {
             @Override
             public Boolean apply(WebDriver driver) {
                 WebElement element = driver.findElement(By.xpath(xpathlocator));
-                String attributeValue = element.getText();
-                return !attributeValue.equalsIgnoreCase("0");
+                String attributeValue = element.getAttribute("class");
+                return !attributeValue.contains("ng-hide");
             }
         };
-        wait.until(attributeNotZero);
+        wait.until(attributeProperty);
     }
         catch(Exception e)
     {

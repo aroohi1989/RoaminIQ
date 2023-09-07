@@ -4,6 +4,7 @@ import ORParcer.RespositoryParser;
 import base.BaseClass;
 import helper.BrowserUtilities;
 import helper.ExceptionHandling;
+import helper.ScreenshotUtility;
 import helper.Utility;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -19,12 +20,12 @@ import java.util.concurrent.TimeUnit;
 
 import static helper.Utility.waitForAllElementsToBePresent;
 import static helper.Utility.waitforPagetoLoad;
-import static helper.WaitUtility.waittillElementNotEmpty;
-import static helper.WaitUtility.waittillElementNotZero;
+import static helper.WaitUtility.*;
 
 public class NetworkInstancePage extends BaseClass
 {
     WebDriverWait wait;
+    ScreenshotUtility st= new ScreenshotUtility();
 
     @FindBy(xpath = "//div[contains(@class,'defaultRadioInputs')]")
     By netSumRadio; //Current Week,Next 4 Weeks,Custom Dates
@@ -124,7 +125,8 @@ public class NetworkInstancePage extends BaseClass
 
     public String getmcpendingallocationcount()
     {
-        waittillElementNotEmpty(driver,60,"//div[contains(@ng-click,'PendingAllocation')]/div[@class='ng-binding']");
+        //waittillElementNotEmpty(driver,60,"//div[contains(@ng-click,'PendingAllocation')]/div[@class='ng-binding']");
+        waittillElementProperty(driver,60,"//div[contains(@ng-click,'PendingAllocation')]/div[1]");
         return pendingallocation.getText();
     }
     public String getactualpendingallocationcount()
@@ -140,9 +142,10 @@ public class NetworkInstancePage extends BaseClass
         String str1="";
         str1=getmcpendingallocationcount();
         System.out.println("Mc count "+str1);
-
+        st.onDemandScreenshotReport();
         String str2=getactualpendingallocationcount();
         System.out.println("Actual page count "+str2);
+        st.onDemandScreenshotReport();
         if(str1.equalsIgnoreCase(str2))
         {
             flag=true;
@@ -152,6 +155,7 @@ public class NetworkInstancePage extends BaseClass
     public String getmcpendingbuildcount()
     {
         waittillElementNotEmpty(driver,60,"//div[contains(@ng-click,'PendingBuild')]/div[@class='ng-binding']");
+        waittillElementProperty(driver,60,"//div[contains(@ng-click,'PendingBuild')]/div[1]");
         return pendingbuild.getText();
     }
     public String getactualpendingbuildcount()
@@ -167,9 +171,10 @@ public class NetworkInstancePage extends BaseClass
         String str1="";
         str1=getmcpendingbuildcount();
         System.out.println("Mc count pending build "+str1);
-
+        st.onDemandScreenshotReport();
         String str2=getactualpendingbuildcount();
         System.out.println("Actual page count pending build "+str2);
+        st.onDemandScreenshotReport();
         if(str1.equalsIgnoreCase(str2))
         {
             flag=true;

@@ -115,8 +115,6 @@ g
 7test-output/old/Command line suite/methods-not-run.html,2\a\2a01064d520810453b0c5de9155915f905d83e42
 g
 7test-output/old/Command line suite/reporter-output.html,3\0\304b265340f9ede7ce2330fbfa86eae9c1c54f54
-[
-+src/main/java/helper/ScreenshotUtility.java,0\0\0020144243771921cee68605569e66602416cc60
 Y
 )src/main/java/helper/StringEncrypter.java,0\8\08de03433b61ce7428490efb98f2280bba9d5445
 a
@@ -165,8 +163,6 @@ R
 "src/main/java/pages/AboutPage.java,7\1\71515e2d2e6763e875779ebac6d2e980a64d511a
 [
 +src/main/java/wrapper/WebDriverWrapper.java,4\c\4c42e878c6cd17e7be6af7c0a2b50a3972f89205
-R
-"src/test/java/XGLT_15177_Test.java,5\1\5156c251e269cbd188775f1f1470679fc73aac97
 M
 configs/ObjectRepo.properties,4\5\4546d452ada598ed5fb118d89925ad8570b820f0
 R
@@ -177,3 +173,11 @@ Q
 !src/test/java/XGLT_6693_Test.java,a\e\ae2424b8a0ba8611636ac174ff933dbcbe0f20bb
 c
 3src/main/java/pages/NetworkInstanceSummaryPage.java,0\8\08d90fa61b9f5f77de314866545e99f4e6c82f8c
+Z
+*src/main/java/helper/BrowserUtilities.java,7\b\7b0e637bbdbdb8f764d1cd4749857a9a9efc00ab
+A
+Testng/testng.xml,0\d\0d56ab1580ad1ef0d956993acbf67e2b7f9a46a4
+Q
+!src/main/java/base/BaseClass.java,a\2\a2ecdf21ff1153ba24b05ac2f5487a082ef289e7
+I
+configs/config.properties,3\b\3ba4c5470bd16d7f88e794b2192d02f020d3a0d6
