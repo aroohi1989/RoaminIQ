@@ -22,7 +22,7 @@ public class XGLT_6688_Test extends BaseClass
     ScreenshotUtility st=new ScreenshotUtility();
 
     @Test(priority = 2,enabled = true)
-    public void NetworkInstanceCurrentWeek()
+    public void NetworkInstanceCurrentWeekPA()
     {
         MCSettingsPage mc= new MCSettingsPage(driver);
         mc.addwait(mc.mcsettingbtn);
@@ -41,26 +41,23 @@ public class XGLT_6688_Test extends BaseClass
             Assert.assertTrue(mc.verifymcvalueset(ConfigReader.getPropertyvalue("XGLT6688value")));
         }
         NetworkInstancePage np=new NetworkInstancePage(driver);
+        waitStatic(50);
         mc.addwait(mc.mcsettingbtn);
         np.PeriodSelection("Current Week");
-        SoftAssert sa= new SoftAssert();
-        sa.assertTrue(np.verifypendingallocationcount());
-        //Reporter.log("currentweek MC value pending allocation is "+np.getmcpendingallocationcount());
-        //Reporter.log("Current week pending allocation actual count is "+np.getactualpendingallocationcount());
-
-
+        Assert.assertTrue(np.verifypendingallocationcount());
         mc.missioncontrolHeader.click();
-        //Pending build
-        np.PeriodSelection("Current Week");
-        waitStatic(60);
-        sa.assertTrue(np.verifypendingbuildcount());
-        //Reporter.log("currentweek MC value pending build is "+np.getmcpendingbuildcount());
-       // Reporter.log("Current week pending build actual count is "+np.getactualpendingbuildcount());
 
     }
-
     @Test(priority = 3,enabled = true)
-    public void NextfourDays()
+    public void NetworkInstanceCurrentWeekPB()
+    {
+        NetworkInstancePage np=new NetworkInstancePage(driver);
+        np.PeriodSelection("Current Week");
+        //waitStatic(60);
+        Assert.assertTrue(np.verifypendingbuildcount());
+    }
+    @Test(priority = 4,enabled = true)
+    public void NextfourDaysPA()
     {
         MCSettingsPage mc= new MCSettingsPage(driver);
         NetworkInstancePage np=new NetworkInstancePage(driver);
@@ -70,31 +67,46 @@ public class XGLT_6688_Test extends BaseClass
         np.PeriodSelection("Next 4 Weeks");
         //waitStatic(60);
         waittillElementNotEmpty(driver,40,"//div[contains(@ng-click,'PendingAllocation')]/div[@class='ng-binding']");
-        SoftAssert sa= new SoftAssert();
-        sa.assertTrue(np.verifypendingallocationcount());
-        //Reporter.log("next 4 week MC value pending allocation is "+np.getmcpendingallocationcount());
-       // Reporter.log("next 4 week week pending allocation actual count is "+np.getactualpendingallocationcount());
+        Assert.assertTrue(np.verifypendingallocationcount());
 
         mc.missioncontrolHeader.click();
+
+       }
+    @Test(priority = 5,enabled = true)
+    public void NextfourDaysPB()
+    {
+        MCSettingsPage mc= new MCSettingsPage(driver);
+        NetworkInstancePage np=new NetworkInstancePage(driver);
         np.PeriodSelection("Next 4 Weeks");
         np.PeriodSelection("Next 4 Weeks");
-        //waitStatic(60);
         waittillElementNotEmpty(driver,40,"//div[contains(@ng-click,'PendingBuild')]/div[@class='ng-binding']");
-        sa.assertTrue(np.verifypendingbuildcount());
-       // Reporter.log("currentweek MC value pending build is "+np.getmcpendingbuildcount());
-        //Reporter.log("Current week pending build actual count is "+np.getactualpendingbuildcount());
+        Assert.assertTrue(np.verifypendingbuildcount());
+        mc.missioncontrolHeader.click();
     }
 
-    @Test(priority = 4,enabled = false)
-    public void CustomDate()
+    @Test(priority = 6,enabled = true)
+    public void CustomDatePA()
     {
         MCSettingsPage mc= new MCSettingsPage(driver);
         NetworkInstancePage np=new NetworkInstancePage(driver);
         mc.addwait(mc.mcsettingbtn);
         np.PeriodSelection("Custom Dates");
-        waitStatic(120);
+        //waitStatic(120);
         np.selectMonth();
         np.selectDate();
         Assert.assertTrue(np.verifypendingallocationcount());
+        mc.missioncontrolHeader.click();
+    }
+    @Test(priority = 6,enabled = true)
+    public void CustomDatePB()
+    {
+        MCSettingsPage mc= new MCSettingsPage(driver);
+        NetworkInstancePage np=new NetworkInstancePage(driver);
+        mc.missioncontrolHeader.click();
+        mc.addwait(mc.mcsettingbtn);
+        np.PeriodSelection("Custom Dates");
+        np.selectMonth();
+        np.selectDate();
+        Assert.assertTrue(np.verifypendingbuildcount());
     }
 }

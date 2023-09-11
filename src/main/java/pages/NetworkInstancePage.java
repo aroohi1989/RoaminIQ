@@ -14,6 +14,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Reporter;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -84,12 +85,14 @@ public class NetworkInstancePage extends BaseClass
     }
     public void PeriodSelection(String radioOption)
     {
+
         List<WebElement> ele=driver.findElements(By.xpath("//div[contains(@class,'defaultRadioInputs')]"));
         for (WebElement e:ele)
         {
             if(e.getText().equalsIgnoreCase(radioOption))
             {
                 e.click();
+                Reporter.log(" "+radioOption);
                 break;
             }
         }
@@ -127,13 +130,16 @@ public class NetworkInstancePage extends BaseClass
     {
         //waittillElementNotEmpty(driver,60,"//div[contains(@ng-click,'PendingAllocation')]/div[@class='ng-binding']");
         waittillElementProperty(driver,60,"//div[contains(@ng-click,'PendingAllocation')]/div[1]");
+        Reporter.log("MC pending allocation count is "+pendingallocation.getText());
         return pendingallocation.getText();
     }
     public String getactualpendingallocationcount()
     {
+        waittillElementInteractable(driver,50,"//h1[contains(text(),'Pending Allocation')]/following-sibling::h1");
         pendingallocation.click();
         BrowserUtilities bu= new BrowserUtilities();
         waittillElementNotZero(driver,50,"//h1[contains(text(),'Pending Allocation')]/following-sibling::h1");
+        Reporter.log("Actual Pending Allocation count on page is "+actualPendingAllocationCount.getText());
         return actualPendingAllocationCount.getText();
     }
     public Boolean verifypendingallocationcount()
@@ -156,6 +162,7 @@ public class NetworkInstancePage extends BaseClass
     {
         waittillElementNotEmpty(driver,60,"//div[contains(@ng-click,'PendingBuild')]/div[@class='ng-binding']");
         waittillElementProperty(driver,60,"//div[contains(@ng-click,'PendingBuild')]/div[1]");
+        Reporter.log("MC Pending build count is "+pendingbuild.getText());
         return pendingbuild.getText();
     }
     public String getactualpendingbuildcount()
@@ -163,6 +170,7 @@ public class NetworkInstancePage extends BaseClass
         pendingbuild.click();
         BrowserUtilities bu= new BrowserUtilities();
         waittillElementNotZero(driver,50,"//h1[contains(text(),'PendingBuild')]/following-sibling::h1");
+        Reporter.log("Actual Pending build count on page is "+actualPendingBuildCount.getText());
         return actualPendingBuildCount.getText();
     }
     public Boolean verifypendingbuildcount()

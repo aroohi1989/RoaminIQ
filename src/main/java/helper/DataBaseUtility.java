@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 public class DataBaseUtility extends WebDriverWrapper
 {
-    public static void connectToSqlDB(String jdbcUrl, String DBUname, String DBPwd) throws SQLException {
+    public static void connectToSqlDB(String jdbcUrl, String DBUname, String DBPwd) {
         Connection conn=null;
         try
         {
@@ -21,9 +21,6 @@ public class DataBaseUtility extends WebDriverWrapper
         catch (Exception e)
         {    logger.error(e);
             System.out.println("SQL Exception occured:  " + e.getMessage());
-        }
-        finally {
-            closeSQLdbConnection(conn);
         }
     }
     public static ArrayList<String[]> executeSQLdbQuery(String jdbcUrl, String DBUname, String DBPwd, String sqlQuery) throws SQLException
@@ -59,6 +56,34 @@ public class DataBaseUtility extends WebDriverWrapper
         }
         return resultList;
     }
+    public static String executeSQLdbQueryCount(String jdbcUrl, String DBUname, String DBPwd, String sqlQuery) throws SQLException
+    {
+
+        String resultList="";
+        Connection con=null;
+        ResultSet Rs = null;
+        try
+        {
+            con = DriverManager.getConnection(jdbcUrl, DBUname, DBPwd);
+            Statement St = con.createStatement();
+            Rs = St.executeQuery(sqlQuery);
+            while (Rs.next())
+            {
+                resultList= Rs.getString(1);
+            }
+
+        }
+        catch(Exception e)
+        {
+            System.out.println("Occured sql execption" +e.getMessage());
+        }
+        finally
+        {
+            closeSQLdbConnection(con);
+        }
+        return resultList;
+    }
+
     public static void closeSQLdbConnection(Connection con) throws SQLException
     {
         try

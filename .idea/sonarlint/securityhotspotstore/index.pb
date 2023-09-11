@@ -55,8 +55,6 @@ J
 src/test/java/Test_DB.java,3\d\3d8cf6488c04d0fe6ec0029c199cfef3e22f4070
 M
 test-output/testng-failed.xml,0\4\048fa78c1f3865f6ecbb70ea771ac93607d18885
-Y
-)src/main/java/helper/DataBaseUtility.java,2\9\2910497ebb1f69e69280d706f09d328312cbee0f
 N
 test-output/testng-reports.css,0\6\068c76965dc9e349fc152beb6fb96e282b12e320
 M
@@ -99,8 +97,6 @@ G.idea/sonarlint/issuestore/0/e/0ecc7be62b8f42a5d8bdb78f2b9148fa336a6a7e,3\f\3f
 Q.idea/sonarlint/securityhotspotstore/d/1/d11652c308c81b2d46e574cab3e3e6a0b73978ac,7\6\768f31cdf488b00a9061b3e2846d3ac28241e0d8
 [
 +src/main/java/helper/ExceptionHandling.java,2\c\2cf68ab3135dcf92cc1d49a5c8e6efefd71a95bf
-`
-0src/main/java/listners/ExtentReportListener.java,9\b\9bb9b53dcc664c16351d661aec2e3fc891a137da
 Y
 )src/main/java/helper/StringEncrypter.java,0\8\08de03433b61ce7428490efb98f2280bba9d5445
 P
@@ -153,8 +149,6 @@ S
 #src/test/java/XglRotationGroup.java,e\7\e790972c6091a94228a40cf891fa4842279c61cf
 P
  src/test/java/SeleniumTest1.java,d\b\db26a7a86d5a882b76226aa9b140b0c58a21e9c7
-7
-pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 ]
 -src/main/java/ORParcer/RespositoryParser.java,8\1\8124b7c41bf959f21fa6bcb31f1c33581c39051f
 \
@@ -167,17 +161,27 @@ M
 configs/ObjectRepo.properties,4\5\4546d452ada598ed5fb118d89925ad8570b820f0
 R
 "src/main/java/pages/LoginPage.java,4\b\4bdc7fe650a4170fd3332cdfc4dca51f7507f98b
-Q
-!src/test/java/XGLT_6693_Test.java,a\e\ae2424b8a0ba8611636ac174ff933dbcbe0f20bb
-\
-,src/main/java/dataProvider/ConfigReader.java,f\c\fc3258a76b3ddd55d20c098362512da4fe16dbb5
 c
 3src/main/java/pages/NetworkInstanceSummaryPage.java,0\8\08d90fa61b9f5f77de314866545e99f4e6c82f8c
-A
-Testng/testng.xml,0\d\0d56ab1580ad1ef0d956993acbf67e2b7f9a46a4
 Z
 *src/main/java/helper/BrowserUtilities.java,7\b\7b0e637bbdbdb8f764d1cd4749857a9a9efc00ab
 Q
 !src/main/java/base/BaseClass.java,a\2\a2ecdf21ff1153ba24b05ac2f5487a082ef289e7
-I
-configs/config.properties,3\b\3ba4c5470bd16d7f88e794b2192d02f020d3a0d6
+W
+'src/main/java/pages/MCSettingsPage.java,a\6\a68e840db653fed941edc042fed3c512cc8c48b1
+F
+configs/log4j/logs.log,e\7\e7feab0017b6f4c1b5ee16c92b49463e2d4e9064
+R
+"src/test/java/XGLT_15177_Test.java,5\1\5156c251e269cbd188775f1f1470679fc73aac97
+[
++src/main/java/helper/ScreenshotUtility.java,0\0\0020144243771921cee68605569e66602416cc60
+Q
+!src/test/java/XGLT_6693_Test.java,a\e\ae2424b8a0ba8611636ac174ff933dbcbe0f20bb
+\
+,src/main/java/pages/NetworkInstancePage.java,d\3\d35a3e1b83d5569b214c9b347605157c104047f6
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+`
+0src/main/java/listners/ExtentReportListener.java,9\b\9bb9b53dcc664c16351d661aec2e3fc891a137da
+U
+%src/main/java/helper/WaitUtility.java,0\a\0a26559a4e416992f4a77d91a6f9f24954597773

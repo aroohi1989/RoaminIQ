@@ -1,23 +1,0 @@
-
-’
-java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Áñâ¿ùÿÿÿÿ8èÄ ­1
-r	java:S117
-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ó­ÜÊøÿÿÿÿ8€ê—­1
-r	java:S117
-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ó­ÜÊøÿÿÿÿ8€ê—­1
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Áñâ¿ùÿÿÿÿ8£­1
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Áñâ¿ùÿÿÿÿ8£­1
-m	java:S117""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒÏ˜8£­1
-m	java:S117&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤òÕë8£­1
-m	java:S117("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄÊÔ»8£­1
-v
-java:S2259:"T"NullPointerException" will be thrown when invoking method "closeSQLdbConnection()".(·˜Ççÿÿÿÿÿ8×ö ­1
-d
-java:S2095&"GUse try-with-resources or close this "Statement" in a "finally" clause.(¤òÕë8×ö ­1
-T	java:S106"9Replace this use of System.out or System.err by a logger.(àıÕ8Œê—­1
-T	java:S106"9Replace this use of System.out or System.err by a logger.(ÄåY8Œê—­1
-Z	java:S1066"9Replace this use of System.out or System.err by a logger.(Ä´‘Êüÿÿÿÿ8ô¶Ÿ­1
-Z	java:S106C"9Replace this use of System.out or System.err by a logger.(Ã˜Ô…øÿÿÿÿ8õ¶Ÿ­1
-]	java:S125D"<This block of commented-out lines of code should be removed.(Ö›Š§úÿÿÿÿ8õ¶Ÿ­1
-Z	java:S106I"9Replace this use of System.out or System.err by a logger.(È˜¯¿ûÿÿÿÿ8ö¶Ÿ­1
-]	java:S125J"<This block of commented-out lines of code should be removed.(Š•Óşøÿÿÿÿ8ö¶Ÿ­1
