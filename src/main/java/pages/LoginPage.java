@@ -21,6 +21,14 @@ public class LoginPage extends BaseClass
     WebElement passwd;
     @FindBy(xpath = "//button[@id='login.loginButton']")
     WebElement login;
+
+    @FindBy(xpath = "//div[@class='modal-content']")
+    public
+    WebElement errorPopup;
+
+    @FindBy(xpath = "//div[@class='modal-content']/div/i[contains(@class,'close')]")
+    WebElement closeerrorPopup;
+
     public By getMissionControl()
     {
         return By.xpath("//div[@id='header.missionControl']");
@@ -52,6 +60,10 @@ public class LoginPage extends BaseClass
      this.setPassword(password);
      this.clickLogin();
     }
+    public void closeErrorpopup()
+    {
+        closeerrorPopup.click();
+    }
 
     public void addwait()
     {
@@ -59,7 +71,7 @@ public class LoginPage extends BaseClass
         // Convert the Duration to milliseconds
         long timeoutMilliseconds = timeout.toMillis();
         wait= new WebDriverWait(driver,timeoutMilliseconds);
-       wait.until(ExpectedConditions.visibilityOfElementLocated(getMissionControl()));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(getMissionControl()));
     }
 }
 

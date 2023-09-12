@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>About_network_test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>5/3/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>8/5/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Sep 08 15:08:15 IST 2023</td>
+<td>Started on:</td><td>Tue Sep 12 21:25:06 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>791 seconds (791634 ms)</td>
+<tr><td>Total time:</td><td>1296 seconds (1296535 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,22 +76,290 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='XGLT_6688_Test.NetworkInstanceCurrentWeekPB()'><b>NetworkInstanceCurrentWeekPB</b><br>Test class: XGLT_6688_Test<br/>
-<a href="#Output-1380271191" onClick='toggleBox("Output-1380271191", this, "Show output", "Hide output");'>Show output</a>
+<td title='XGLT_6688_Test.NextfourDaysPB()'><b>NextfourDaysPB</b><br>Test class: XGLT_6688_Test<br/>
+<a href="#Output-972774879" onClick='toggleBox("Output-972774879", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1380271191" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1380271191">
- Current Week<br/>
-MC Pending build count is <br/>
+<a href="#Output-972774879" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-972774879">
+ Next 4 Weeks<br/>
+ Next 4 Weeks<br/>
 </div>
 </td>
-<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable: element has zero size
-  (Session info: chrome=116.0.5845.180)
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(@ng-click,&apos;PendingBuild&apos;)]/div[@class=&apos;ng-binding&apos;]&quot;}
+  (Session info: chrome=116.0.5845.182)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DPLAP166&apos;, ip: &apos;137.237.3.212&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+System info: host: &apos;DPLAP166&apos;, ip: &apos;137.237.2.46&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.180, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\dP-PL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51676}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c654237f94ddaac324671d2376092dc9
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.182, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\dP-PL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56168}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 43a1c8ab801cfd390bc0f6700058e6e3
+*** Element info: {Using=xpath, value=//div[contains(@ng-click,&apos;PendingBuild&apos;)]/div[@class=&apos;ng-binding&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.getText(Unknown Source)
+	at pages.NetworkInstancePage.getmcpendingbuildcount(NetworkInstancePage.java:165)
+	at pages.NetworkInstancePage.verifypendingbuildcount(NetworkInstancePage.java:180)
+	at XGLT_6688_Test.NextfourDaysPB(XGLT_6688_Test.java:83)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace972774879", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace972774879'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(@ng-click,&apos;PendingBuild&apos;)]/div[@class=&apos;ng-binding&apos;]&quot;}
+  (Session info: chrome=116.0.5845.182)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DPLAP166&apos;, ip: &apos;137.237.2.46&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.182, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\dP-PL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56168}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 43a1c8ab801cfd390bc0f6700058e6e3
+*** Element info: {Using=xpath, value=//div[contains(@ng-click,&apos;PendingBuild&apos;)]/div[@class=&apos;ng-binding&apos;]}
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.getText(Unknown Source)
+	at pages.NetworkInstancePage.getmcpendingbuildcount(NetworkInstancePage.java:165)
+	at pages.NetworkInstancePage.verifypendingbuildcount(NetworkInstancePage.java:180)
+	at XGLT_6688_Test.NextfourDaysPB(XGLT_6688_Test.java:83)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+</pre></div></td>
+<td>301</td>
+<td>XGLT_6688_Test@72ccd81a</td></tr>
+<tr>
+<td title='XGLT_6688_Test.NetworkInstanceCurrentWeekPB()'><b>NetworkInstanceCurrentWeekPB</b><br>Test class: XGLT_6688_Test<br/>
+<a href="#Output-37590923" onClick='toggleBox("Output-37590923", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-37590923" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-37590923">
+ Current Week<br/>
+MC Pending build count is 6<br/>
+Actual Pending build count on page is <br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at XGLT_6688_Test.NetworkInstanceCurrentWeekPB(XGLT_6688_Test.java:57)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace37590923", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace37590923'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at XGLT_6688_Test.NetworkInstanceCurrentWeekPB(XGLT_6688_Test.java:57)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+</pre></div></td>
+<td>112</td>
+<td>XGLT_6688_Test@72ccd81a</td></tr>
+<tr>
+<td title='XGLT_6688_Test.NextfourDaysPA()'><b>NextfourDaysPA</b><br>Test class: XGLT_6688_Test<br/>
+<a href="#Output-862577358" onClick='toggleBox("Output-862577358", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-862577358" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-862577358">
+ Next 4 Weeks<br/>
+ Next 4 Weeks<br/>
+MC pending allocation count is 1028<br/>
+Actual Pending Allocation count on page is <br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at XGLT_6688_Test.NextfourDaysPA(XGLT_6688_Test.java:70)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace862577358", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace862577358'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at XGLT_6688_Test.NextfourDaysPA(XGLT_6688_Test.java:70)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+</pre></div></td>
+<td>113</td>
+<td>XGLT_6688_Test@72ccd81a</td></tr>
+<tr>
+<td title='XGLT_6688_Test.CustomDatePB()'><b>CustomDatePB</b><br>Test class: XGLT_6688_Test<br/>
+<a href="#Output-394663898" onClick='toggleBox("Output-394663898", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-394663898" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-394663898">
+ Custom Dates<br/>
+MC Pending build count is 7<br/>
+Actual Pending build count on page is <br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at XGLT_6688_Test.CustomDatePB(XGLT_6688_Test.java:110)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace394663898", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace394663898'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at XGLT_6688_Test.CustomDatePB(XGLT_6688_Test.java:110)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+</pre></div></td>
+<td>113</td>
+<td>XGLT_6688_Test@72ccd81a</td></tr>
+<tr>
+<td title='XGLT_6688_Test.CustomDatePA()'><b>CustomDatePA</b><br>Test class: XGLT_6688_Test<br/>
+<a href="#Output-170101390" onClick='toggleBox("Output-170101390", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-170101390" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-170101390">
+ Custom Dates<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=116.0.5845.182)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DPLAP166&apos;, ip: &apos;137.237.2.46&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.182, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\dP-PL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56168}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 43a1c8ab801cfd390bc0f6700058e6e3
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -101,22 +369,21 @@ Session ID: c654237f94ddaac324671d2376092dc9
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
 	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
-	at jdk.proxy2/jdk.proxy2.$Proxy28.click(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy29.click(Unknown Source)
 	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
-	at pages.NetworkInstancePage.getactualpendingbuildcount(NetworkInstancePage.java:170)
-	at pages.NetworkInstancePage.verifypendingbuildcount(NetworkInstancePage.java:183)
-	at XGLT_6688_Test.NetworkInstanceCurrentWeekPB(XGLT_6688_Test.java:57)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.click(Unknown Source)
+	at pages.NetworkInstancePage.selectDate(NetworkInstancePage.java:126)
+	at XGLT_6688_Test.CustomDatePA(XGLT_6688_Test.java:96)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1380271191", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1380271191'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable: element has zero size
-  (Session info: chrome=116.0.5845.180)
+... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace170101390", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace170101390'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=116.0.5845.182)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DPLAP166&apos;, ip: &apos;137.237.3.212&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+System info: host: &apos;DPLAP166&apos;, ip: &apos;137.237.2.46&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.180, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\dP-PL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51676}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c654237f94ddaac324671d2376092dc9
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.182, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\dP-PL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56168}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 43a1c8ab801cfd390bc0f6700058e6e3
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -131,15 +398,14 @@ Session ID: c654237f94ddaac324671d2376092dc9
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
-	at jdk.proxy2/jdk.proxy2.$Proxy28.click(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy29.click(Unknown Source)
 	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
-	at pages.NetworkInstancePage.getactualpendingbuildcount(NetworkInstancePage.java:170)
-	at pages.NetworkInstancePage.verifypendingbuildcount(NetworkInstancePage.java:183)
-	at XGLT_6688_Test.NetworkInstanceCurrentWeekPB(XGLT_6688_Test.java:57)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.click(Unknown Source)
+	at pages.NetworkInstancePage.selectDate(NetworkInstancePage.java:126)
+	at XGLT_6688_Test.CustomDatePA(XGLT_6688_Test.java:96)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -171,109 +437,8 @@ Session ID: c654237f94ddaac324671d2376092dc9
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 </pre></div></td>
-<td>194</td>
-<td>XGLT_6688_Test@6e521c1e</td></tr>
-<tr>
-<td title='XGLT_6688_Test.NetworkInstanceCurrentWeekPA()'><b>NetworkInstanceCurrentWeekPA</b><br>Test class: XGLT_6688_Test<br/>
-<a href="#Output-1670627211" onClick='toggleBox("Output-1670627211", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1670627211" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1670627211">
- Current Week<br/>
-MC pending allocation count is <br/>
-Actual Pending Allocation count on page is 441<br/>
-</div>
-</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at XGLT_6688_Test.NetworkInstanceCurrentWeekPA(XGLT_6688_Test.java:47)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1670627211", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1670627211'><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertTrue(Assert.java:56)
-	at org.testng.Assert.assertTrue(Assert.java:66)
-	at XGLT_6688_Test.NetworkInstanceCurrentWeekPA(XGLT_6688_Test.java:47)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-</pre></div></td>
-<td>58</td>
-<td>XGLT_6688_Test@6e521c1e</td></tr>
-<tr>
-<td title='XGLT_15177_Test.About()'><b>About</b><br>Test class: XGLT_15177_Test</td>
-<td><div><pre>java.lang.AssertionError: expected [xGLinear 2.6.0] but found [xGLinear 2.5.2.8]
-	at XGLT_15177_Test.About(XGLT_15177_Test.java:34)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1397338694", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1397338694'><pre>java.lang.AssertionError: expected [xGLinear 2.6.0] but found [xGLinear 2.5.2.8]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at XGLT_15177_Test.About(XGLT_15177_Test.java:34)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-</pre></div></td>
-<td>3</td>
-<td>XGLT_15177_Test@6c345c5f</td></tr>
+<td>50</td>
+<td>XGLT_6688_Test@72ccd81a</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -284,75 +449,92 @@ Actual Pending Allocation count on page is 441<br/>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='XGLT_6688_Test.CustomDatePA()'><b>CustomDatePA</b><br>Test class: XGLT_6688_Test<br/>
-<a href="#Output-1012108898" onClick='toggleBox("Output-1012108898", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1012108898" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1012108898">
- Custom Dates<br/>
-MC pending allocation count is 1029<br/>
-Actual Pending Allocation count on page is 1029<br/>
-</div>
-</td>
+<td title='XGLT_6992_Test.MCsetUser()'><b>MCsetUser</b><br>Test class: XGLT_6992_Test</td>
 <td></td>
-<td>112</td>
-<td>XGLT_6688_Test@6e521c1e</td></tr>
-<tr>
-<td title='XGLT_6688_Test.NextfourDaysPA()'><b>NextfourDaysPA</b><br>Test class: XGLT_6688_Test<br/>
-<a href="#Output-1968340534" onClick='toggleBox("Output-1968340534", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1968340534" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1968340534">
- Next 4 Weeks<br/>
- Next 4 Weeks<br/>
-MC pending allocation count is 4117<br/>
-Actual Pending Allocation count on page is 4117<br/>
-</div>
-</td>
-<td></td>
-<td>113</td>
-<td>XGLT_6688_Test@6e521c1e</td></tr>
+<td>5</td>
+<td>XGLT_6992_Test@6d8792db</td></tr>
 <tr>
 <td title='XGLT_6693_Test.MissonControlReset()'><b>MissonControlReset</b><br>Test class: XGLT_6693_Test<br/>
-<a href="#Output-1942211849" onClick='toggleBox("Output-1942211849", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1088247084" onClick='toggleBox("Output-1088247084", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1942211849" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1942211849">
+<a href="#Output-1088247084" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1088247084">
 Pass: Test XGLT-6693<br/>
 </div>
 </td>
 <td></td>
-<td>5</td>
-<td>XGLT_6693_Test@5f4d427e</td></tr>
+<td>10</td>
+<td>XGLT_6693_Test@593e824f</td></tr>
 <tr>
-<td title='XGLT_6688_Test.CustomDatePB()'><b>CustomDatePB</b><br>Test class: XGLT_6688_Test<br/>
-<a href="#Output-1892261395" onClick='toggleBox("Output-1892261395", this, "Show output", "Hide output");'>Show output</a>
+<td title='XGLT_6748_Test.CreateNewSalesPerson()'><b>CreateNewSalesPerson</b><br>Test class: XGLT_6748_Test<br/>
+<a href="#Output-797724590" onClick='toggleBox("Output-797724590", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1892261395" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1892261395">
- Custom Dates<br/>
-MC Pending build count is 42<br/>
-Actual Pending build count on page is 42<br/>
+<a href="#Output-797724590" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-797724590">
+Company entity selected is COLM | Columbus Sales Office<br/>
+Company entity selected is 01 | Denver Interconnect<br/>
 </div>
 </td>
 <td></td>
-<td>112</td>
-<td>XGLT_6688_Test@6e521c1e</td></tr>
+<td>21</td>
+<td>XGLT_6748_Test@2f94c4db</td></tr>
 <tr>
-<td title='XGLT_6688_Test.NextfourDaysPB()'><b>NextfourDaysPB</b><br>Test class: XGLT_6688_Test<br/>
-<a href="#Output-31676014" onClick='toggleBox("Output-31676014", this, "Show output", "Hide output");'>Show output</a>
+<td title='XGLT_15177_Test.About()'><b>About</b><br>Test class: XGLT_15177_Test<br/>
+<a href="#Output-687141632" onClick='toggleBox("Output-687141632", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-31676014" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-31676014">
- Next 4 Weeks<br/>
- Next 4 Weeks<br/>
-MC Pending build count is 196<br/>
-Actual Pending build count on page is 196<br/>
+<a href="#Output-687141632" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-687141632">
+InstanceQA134-PS xGL DB<br/>
+InstanceQA134-PS xGL DBData Service10.7.30.164:1521/xgldb<br/>
+InstanceQA134-PS xGL DBData Service10.7.30.164:1521/xgldbChannel CountChannelCount: 580, HeadendCount=97<br/>
+InstanceQA134-PS xGL DBData Service10.7.30.164:1521/xgldbChannel CountChannelCount: 580, HeadendCount=97Build Infodevelop | ID=89bdbb3 a4 @ 09/12/23 07:46 AM<br/>
+InstanceQA134-PS xGL DBData Service10.7.30.164:1521/xgldbChannel CountChannelCount: 580, HeadendCount=97Build Infodevelop | ID=89bdbb3 a4 @ 09/12/23 07:46 AMPackage InfoxGLinear 2.6.0 Azure Build at 09/12/2023 07:50:50<br/>
+Pass: About information read<br/>
 </div>
 </td>
 <td></td>
-<td>111</td>
-<td>XGLT_6688_Test@6e521c1e</td></tr>
+<td>2</td>
+<td>XGLT_15177_Test@1d9bec4d</td></tr>
+<tr>
+<td title='XGLT_6992_Test.getMCUsercounts()'><b>getMCUsercounts</b><br>Test class: XGLT_6992_Test<br/>
+<a href="#Output-348244902" onClick='toggleBox("Output-348244902", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-348244902" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-348244902">
+winActiveDir is 0<br/>
+ logged in users is 3<br/>
+ total xgl users 76<br/>
+ total number of users is 0<br/>
+Value in DB 76 and value on MC widget is 76<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>XGLT_6992_Test@6d8792db</td></tr>
+<tr>
+<td title='Create_Network.search_Network()'><b>search_Network</b><br>Test class: Create_Network</td>
+<td></td>
+<td>1</td>
+<td>Create_Network@25bcd0c7</td></tr>
+<tr>
+<td title='Create_Network.create_Network()'><b>create_Network</b><br>Test class: Create_Network</td>
+<td></td>
+<td>0</td>
+<td>Create_Network@25bcd0c7</td></tr>
+<tr>
+<td title='XGLT_6688_Test.NetworkInstanceCurrentWeekPA()'><b>NetworkInstanceCurrentWeekPA</b><br>Test class: XGLT_6688_Test<br/>
+<a href="#Output-1322093233" onClick='toggleBox("Output-1322093233", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1322093233" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1322093233">
+ Current Week<br/>
+MC pending allocation count is <br/>
+Actual Pending Allocation count on page is <br/>
+</div>
+</td>
+<td></td>
+<td>58</td>
+<td>XGLT_6688_Test@72ccd81a</td></tr>
 </table><p>
 </body>
 </html>

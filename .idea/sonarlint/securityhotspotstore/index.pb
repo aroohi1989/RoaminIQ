@@ -1,10 +1,6 @@
 
 [
 +src/main/java/helper/UploadFileExample.java,8\2\82b9d66d3dd9adb7dbae91470951f1bf7d419bf5
-g
-7src/main/java/pages/Network_programbreakformatPage.java,2\3\235a7b015949b57db55a34e9fd481bda167f4423
-]
--src/test/java/Network_programbreakformat.java,f\3\f3a49dc7489f41b6347f804042bddd8b990ec844
 Å
 Q.idea/sonarlint/securityhotspotstore/8/2/82b9d66d3dd9adb7dbae91470951f1bf7d419bf5,0\8\083e0dddb6002c9b17f1abd4adeb2849483acfa0
 Å
@@ -151,28 +147,16 @@ P
  src/test/java/SeleniumTest1.java,d\b\db26a7a86d5a882b76226aa9b140b0c58a21e9c7
 ]
 -src/main/java/ORParcer/RespositoryParser.java,8\1\8124b7c41bf959f21fa6bcb31f1c33581c39051f
-\
-,src/main/java/helper/JavaScriptExecutor.java,d\1\d11652c308c81b2d46e574cab3e3e6a0b73978ac
-R
-"src/main/java/pages/AboutPage.java,7\1\71515e2d2e6763e875779ebac6d2e980a64d511a
 [
 +src/main/java/wrapper/WebDriverWrapper.java,4\c\4c42e878c6cd17e7be6af7c0a2b50a3972f89205
 M
 configs/ObjectRepo.properties,4\5\4546d452ada598ed5fb118d89925ad8570b820f0
-R
-"src/main/java/pages/LoginPage.java,4\b\4bdc7fe650a4170fd3332cdfc4dca51f7507f98b
 c
 3src/main/java/pages/NetworkInstanceSummaryPage.java,0\8\08d90fa61b9f5f77de314866545e99f4e6c82f8c
 Z
 *src/main/java/helper/BrowserUtilities.java,7\b\7b0e637bbdbdb8f764d1cd4749857a9a9efc00ab
-Q
-!src/main/java/base/BaseClass.java,a\2\a2ecdf21ff1153ba24b05ac2f5487a082ef289e7
-W
-'src/main/java/pages/MCSettingsPage.java,a\6\a68e840db653fed941edc042fed3c512cc8c48b1
 F
 configs/log4j/logs.log,e\7\e7feab0017b6f4c1b5ee16c92b49463e2d4e9064
-R
-"src/test/java/XGLT_15177_Test.java,5\1\5156c251e269cbd188775f1f1470679fc73aac97
 [
 +src/main/java/helper/ScreenshotUtility.java,0\0\0020144243771921cee68605569e66602416cc60
 Q
@@ -181,7 +165,9 @@ Q
 ,src/main/java/pages/NetworkInstancePage.java,d\3\d35a3e1b83d5569b214c9b347605157c104047f6
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-`
-0src/main/java/listners/ExtentReportListener.java,9\b\9bb9b53dcc664c16351d661aec2e3fc891a137da
-U
-%src/main/java/helper/WaitUtility.java,0\a\0a26559a4e416992f4a77d91a6f9f24954597773
+Q
+!src/test/java/XGLT_6688_Test.java,a\d\ada5511bf1357bac7175bf548afe2250cb2b355f
+\
+,src/main/java/dataProvider/ConfigReader.java,f\c\fc3258a76b3ddd55d20c098362512da4fe16dbb5
+Y
+)src/main/java/helper/DataBaseUtility.java,2\9\2910497ebb1f69e69280d706f09d328312cbee0f

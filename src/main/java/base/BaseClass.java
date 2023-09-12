@@ -3,11 +3,13 @@ package base;
 import ORParcer.RespositoryParser;
 import browserfactory.BrowserFactory;
 import dataProvider.ConfigReader;
+import helper.ExceptionHandling;
 import helper.File_Archieve;
 import listners.WebEventListener;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.core.config.Configurator;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.testng.Assert;
@@ -71,13 +73,22 @@ public class BaseClass
         lp.Login_To_Application(uname,pwrd);
         lp.addwait();
         Assert.assertTrue(driver.getCurrentUrl().contains("MissionControl"),"Login failed");
+        try{
+        {
+            lp.closeErrorpopup();
+        }}
+        catch (NoSuchElementException e)
+        {
+            ExceptionHandling.handleException(e);
+        }
     }
     @BeforeClass
     public void login()
     {
         LoginXGL(ConfigReader.getPropertyvalue("username"), ConfigReader.getPropertyvalue("password"));
+
     }
-    //@AfterClass
+    @AfterClass
     public void closeBrowser()
     {
         log.info("closing up browser");

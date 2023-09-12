@@ -17,22 +17,16 @@
           <include name="setupLog4j"/>
           <include name="login"/>
           <include name="initOR"/>
+          <include name="NextfourDaysPB"/>
           <include name="name"/>
-          <include name="NetworkInstanceCurrentWeekPA"/>
+          <include name="CustomDatePA"/>
+          <include name="CustomDatePB"/>
           <include name="archive_old"/>
           <include name="NetworkInstanceCurrentWeekPB"/>
+          <include name="closeBrowser"/>
+          <include name="NextfourDaysPA"/>
         </methods>
       </class> <!-- XGLT_6688_Test -->
-      <class name="XGLT_15177_Test">
-        <methods>
-          <include name="setupLog4j"/>
-          <include name="login"/>
-          <include name="initOR"/>
-          <include name="name"/>
-          <include name="About"/>
-          <include name="archive_old"/>
-        </methods>
-      </class> <!-- XGLT_15177_Test -->
     </classes>
   </test> <!-- About_network_test(failed) -->
 </suite> <!-- Failed suite [Smoke Pack Suite] -->
