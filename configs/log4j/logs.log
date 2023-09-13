@@ -13757,3 +13757,737 @@ java.nio.file.FileAlreadyExistsException: D:\XGL Final\XGLFinal\target\surefire-
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
+2023-09-13 13:26:29,761 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\XGL Final\XGLFinal\Testng\testng.xml
+
+2023-09-13 13:26:30,219 [main] INFO  base.BaseClass - Login to XGL
+2023-09-13 13:26:30,221 [main] INFO  XGLT_6749_Test - Setting up browser
+2023-09-13 13:26:36,129 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+2023-09-13 13:26:36,508 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dP-PL\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+2023-09-13 13:26:52,324 [main] INFO  base.BaseClass - Before navigating to {url}
+2023-09-13 13:26:59,039 [main] INFO  base.BaseClass - Navigated to {url}
+2023-09-13 13:26:59,088 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:26:59,348 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 13:26:59,584 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:26:59,599 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 13:26:59,963 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:26:59,977 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 13:26:59,979 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 13:27:00,125 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 13:27:00,131 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:27:04,366 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 13:27:04,433 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:27:54,641 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:27:54,676 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 13:27:54,677 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 13:27:54,724 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 13:27:54,725 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:27:54,738 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 13:27:54,738 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 13:27:54,969 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 13:27:54,972 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:27:54,990 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 13:27:55,133 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:27:55,154 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 13:27:55,154 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 13:27:55,242 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 13:27:55,242 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:27:55,261 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 13:27:55,262 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 13:27:55,350 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 13:27:55,352 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:27:55,366 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 13:27:55,433 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:27:55,449 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 13:27:55,532 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:27:55,546 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 13:27:55,546 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 13:27:55,583 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 13:27:55,586 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:27:55,598 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 13:27:55,619 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:27:55,628 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 13:27:56,007 [main] INFO  XGLT_6749_Test - closing up browser
+2023-09-13 13:30:02,282 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\XGL Final\XGLFinal\Testng\testng.xml
+
+2023-09-13 13:30:02,330 [main] INFO  base.BaseClass - Login to XGL
+2023-09-13 13:30:02,331 [main] INFO  XGLT_6749_Test - Setting up browser
+2023-09-13 13:30:02,636 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+2023-09-13 13:30:02,661 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dP-PL\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+2023-09-13 13:30:05,609 [main] INFO  base.BaseClass - Before navigating to {url}
+2023-09-13 13:30:11,831 [main] INFO  base.BaseClass - Navigated to {url}
+2023-09-13 13:30:11,858 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:30:11,873 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 13:30:11,925 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:30:11,937 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 13:30:12,003 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:30:12,017 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 13:30:12,018 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 13:30:12,057 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 13:30:12,060 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:30:19,734 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 13:30:19,778 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:31:09,866 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:31:09,890 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 13:31:09,891 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 13:31:09,939 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 13:31:09,939 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:31:09,953 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 13:31:09,953 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 13:31:10,092 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 13:31:10,095 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:31:10,113 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 13:31:10,130 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:31:10,165 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 13:31:10,165 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 13:31:10,238 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 13:31:10,239 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:31:10,254 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 13:31:10,254 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 13:31:10,336 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 13:31:10,337 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:31:10,352 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 13:31:10,415 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:31:10,428 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 13:31:10,483 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:31:10,495 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 13:31:10,496 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 13:31:10,545 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 13:31:10,549 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:31:10,563 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 13:31:10,586 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:31:10,599 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 13:31:45,843 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\XGL Final\XGLFinal\Testng\testng.xml
+
+2023-09-13 13:31:45,891 [main] INFO  base.BaseClass - Login to XGL
+2023-09-13 13:31:45,892 [main] INFO  XGLT_6749_Test - Setting up browser
+2023-09-13 13:31:46,190 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+2023-09-13 13:31:46,213 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dP-PL\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+2023-09-13 13:31:47,731 [main] INFO  base.BaseClass - Before navigating to {url}
+2023-09-13 13:31:57,057 [main] INFO  base.BaseClass - Navigated to {url}
+2023-09-13 13:31:57,090 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:31:57,117 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 13:31:57,173 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:31:57,188 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 13:31:57,251 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:31:57,266 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 13:31:57,266 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 13:31:57,307 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 13:31:57,311 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:32:02,211 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 13:32:02,257 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:32:52,304 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:32:52,318 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 13:32:52,318 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 13:32:52,367 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 13:32:52,367 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:32:52,381 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 13:32:52,381 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 13:32:52,532 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 13:32:52,534 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:32:52,558 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 13:32:52,578 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:32:52,593 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 13:32:52,593 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 13:32:52,673 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 13:32:52,674 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:32:52,690 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 13:32:52,690 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 13:32:52,793 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 13:32:52,795 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:32:52,811 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 13:32:52,883 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:32:52,896 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 13:32:52,964 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:32:52,977 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 13:32:52,978 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 13:32:53,020 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 13:32:53,025 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:32:53,042 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 13:32:53,064 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 13:32:53,075 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:52:46,217 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\XGL Final\XGLFinal\Testng\testng.xml
+
+2023-09-13 14:52:46,323 [main] INFO  base.BaseClass - Login to XGL
+2023-09-13 14:52:46,324 [main] INFO  XGLT_6150_Test - Setting up browser
+2023-09-13 14:52:49,890 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+2023-09-13 14:52:49,909 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dP-PL\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+2023-09-13 14:52:54,864 [main] INFO  base.BaseClass - Before navigating to {url}
+2023-09-13 14:53:00,442 [main] INFO  base.BaseClass - Navigated to {url}
+2023-09-13 14:53:00,511 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:53:00,530 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:53:00,586 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:53:00,599 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:53:00,671 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:53:00,686 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:53:00,687 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 14:53:00,727 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 14:53:00,731 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:53:05,928 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:53:05,975 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:53:56,039 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:53:56,055 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:53:56,056 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 14:53:56,103 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 14:53:56,104 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:53:56,117 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:53:56,117 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 14:53:56,248 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 14:53:56,250 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:53:56,268 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:53:56,283 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:53:56,299 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:53:56,299 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 14:53:56,393 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 14:53:56,393 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:56:31,030 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\XGL Final\XGLFinal\Testng\testng.xml
+
+2023-09-13 14:56:31,079 [main] INFO  base.BaseClass - Login to XGL
+2023-09-13 14:56:31,080 [main] INFO  XGLT_6150_Test - Setting up browser
+2023-09-13 14:56:31,371 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+2023-09-13 14:56:31,399 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dP-PL\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+2023-09-13 14:56:34,276 [main] INFO  base.BaseClass - Before navigating to {url}
+2023-09-13 14:56:42,454 [main] INFO  base.BaseClass - Navigated to {url}
+2023-09-13 14:56:42,476 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:56:42,491 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:56:42,547 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:56:42,560 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:56:42,625 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:56:42,639 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:56:42,640 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 14:56:42,678 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 14:56:42,682 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:56:50,660 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:56:50,708 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:57:40,782 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:57:40,805 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:57:40,806 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 14:57:40,852 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 14:57:40,852 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:57:40,866 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:57:40,866 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 14:57:41,003 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 14:57:41,005 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:57:41,027 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:57:41,043 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:57:41,059 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:57:41,059 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 14:57:41,136 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 14:57:41,140 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:57:41,154 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:57:41,155 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 14:57:41,224 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 14:57:41,225 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:57:41,239 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:57:41,308 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:57:41,321 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:57:41,398 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:57:41,415 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:57:41,942 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:57:41,955 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:57:42,486 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:57:42,516 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:57:43,079 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:57:43,108 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:57:43,641 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:57:43,653 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:57:44,176 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:57:44,203 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:57:44,754 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:57:44,784 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:57:45,332 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:57:45,364 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:57:45,898 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:57:45,925 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:57:46,474 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:57:46,502 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:57:47,039 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:57:47,066 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:57:47,598 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:57:47,626 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:57:48,169 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:57:48,196 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:57:48,732 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:57:48,758 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:57:49,306 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:57:49,320 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:57:49,839 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:57:49,855 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:57:50,399 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:57:50,412 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:57:50,936 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:57:50,965 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:57:51,514 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:57:51,544 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:57:52,092 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:57:52,119 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:57:52,652 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:57:52,683 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:57:53,220 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:57:53,253 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:57:53,797 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:57:53,826 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:57:54,377 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:57:54,400 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:57:54,936 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:57:54,946 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:57:55,468 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:57:55,496 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:57:56,047 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:57:56,074 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:57:56,623 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:57:56,658 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:57:57,182 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:57:57,203 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:57:57,733 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:57:57,759 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:57:58,309 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:57:58,334 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:57:58,858 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:57:58,889 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:57:59,434 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:57:59,464 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:57:59,995 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:58:00,022 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:58:00,557 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:58:00,568 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:58:01,089 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:58:01,101 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:58:01,619 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:58:01,631 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:58:01,648 [main] ERROR XGLT_6150_Test - Element did not become visible within the specified time: Expected condition failed: waiting for helper.WaitUtility$4@60bb7995 (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DPLAP166', ip: '137.237.3.76', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.188, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\dP-PL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51133}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ba7b985ebfc70d95a311747f149513b4
+2023-09-13 14:58:01,667 [Forwarding actions on session ba7b985ebfc70d95a311747f149513b4 to remote] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:58:01,675 [Forwarding actions on session ba7b985ebfc70d95a311747f149513b4 to remote] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:58:01,824 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:58:01,848 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:58:01,848 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 14:58:01,915 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 14:58:01,917 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:58:01,933 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:58:01,941 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 14:58:01,975 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 14:58:01,976 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:58:01,988 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:58:01,989 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 14:58:02,026 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 14:58:02,029 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:58:02,043 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:58:02,056 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:58:02,066 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 14:58:02,076 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 14:58:02,085 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:06:52,033 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\XGL Final\XGLFinal\Testng\testng.xml
+
+2023-09-13 16:06:52,340 [main] INFO  base.BaseClass - Login to XGL
+2023-09-13 16:06:52,340 [main] INFO  XGLT_6753_Test - Setting up browser
+2023-09-13 16:06:56,824 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+2023-09-13 16:06:56,857 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dP-PL\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+2023-09-13 16:07:04,000 [main] INFO  base.BaseClass - Before navigating to {url}
+2023-09-13 16:07:08,764 [main] INFO  base.BaseClass - Navigated to {url}
+2023-09-13 16:07:09,172 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:07:09,217 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:07:09,313 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:07:09,327 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:07:09,394 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:07:09,408 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:07:09,408 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 16:07:09,448 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 16:07:09,450 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:07:24,761 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:07:24,844 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:08:15,103 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:08:15,144 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:08:15,145 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 16:08:15,219 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 16:08:15,219 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:08:15,237 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:08:15,237 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 16:08:15,399 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 16:08:15,401 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:08:15,420 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:08:15,436 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:08:15,449 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:08:15,449 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 16:08:15,522 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 16:08:15,526 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:08:15,540 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:08:15,541 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 16:08:15,630 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 16:08:15,630 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:08:15,647 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:08:15,716 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:10:33,612 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\XGL Final\XGLFinal\Testng\testng.xml
+
+2023-09-13 16:10:33,670 [main] INFO  base.BaseClass - Login to XGL
+2023-09-13 16:10:33,670 [main] INFO  XGLT_6753_Test - Setting up browser
+2023-09-13 16:10:33,990 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+2023-09-13 16:10:34,016 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dP-PL\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+2023-09-13 16:10:37,266 [main] INFO  base.BaseClass - Before navigating to {url}
+2023-09-13 16:10:44,961 [main] INFO  base.BaseClass - Navigated to {url}
+2023-09-13 16:10:44,988 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:10:45,004 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:10:45,056 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:10:45,070 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:10:45,137 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:10:45,152 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:10:45,153 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 16:10:45,194 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 16:10:45,199 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:10:52,003 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:10:52,049 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:11:42,183 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:11:42,203 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:11:42,204 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 16:11:42,248 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 16:11:42,248 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:11:42,261 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:11:42,262 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 16:11:42,415 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 16:11:42,417 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:11:42,449 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:11:42,467 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:11:42,481 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:11:42,482 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 16:11:42,552 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 16:11:42,556 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:11:42,572 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:11:42,572 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 16:11:42,661 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 16:11:42,662 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:11:42,681 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:11:42,746 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:11:42,759 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:11:42,832 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:11:42,846 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:11:42,846 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 16:11:42,903 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 16:11:42,968 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:11:42,995 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:11:43,522 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:11:43,544 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:11:44,099 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:11:44,130 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:11:44,696 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:11:44,727 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:11:45,274 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:11:45,300 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:11:45,818 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:11:45,850 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:11:46,398 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:11:46,410 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:11:46,925 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:11:46,934 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:11:47,457 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:11:47,468 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:11:47,990 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:11:48,021 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:11:48,567 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:11:48,596 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:11:49,145 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:11:49,174 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:11:49,726 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:11:49,755 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:11:50,306 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:11:50,335 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:11:50,870 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:11:50,896 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:11:51,423 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:11:51,451 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:11:52,000 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:11:52,027 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:11:52,574 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:11:52,603 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:11:53,151 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:11:53,166 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:11:53,686 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:11:53,715 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:11:54,264 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:11:54,287 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:11:54,822 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:11:54,852 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:11:55,399 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:11:55,429 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:11:55,973 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:11:55,985 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:11:56,516 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:11:56,546 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:11:57,091 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:11:57,118 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:11:57,648 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:11:57,682 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:11:58,238 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:11:58,265 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:11:58,799 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:11:58,830 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:11:59,378 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:11:59,406 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:11:59,957 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:11:59,981 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:12:00,501 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:12:00,512 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:12:01,034 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:12:01,064 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:12:01,612 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:12:01,641 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:12:02,189 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:12:02,207 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:12:02,737 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:12:02,762 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:12:03,285 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:12:03,313 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:12:03,358 [main] ERROR XGLT_6753_Test - Element did not become visible within the specified time: Expected condition failed: waiting for helper.WaitUtility$4@2d760326 (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DPLAP166', ip: '137.237.3.76', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.188, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\dP-PL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62341}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: db9d5556d13277f18fcd470e0a9323b4
+2023-09-13 16:12:03,375 [Forwarding actions on session db9d5556d13277f18fcd470e0a9323b4 to remote] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:12:03,410 [Forwarding actions on session db9d5556d13277f18fcd470e0a9323b4 to remote] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:12:03,542 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:12:03,576 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:12:03,643 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:12:03,662 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:12:03,718 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:12:03,731 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:12:03,731 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 16:12:03,788 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 16:12:03,789 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:12:03,804 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:12:03,804 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 16:12:03,843 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 16:12:03,843 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:12:03,856 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:12:03,870 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:12:03,879 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 16:12:03,879 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 16:12:03,914 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 16:12:03,915 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 16:12:03,927 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 19:49:20,339 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\XGL Final\XGLFinal\Testng\testng.xml
+
+2023-09-13 19:49:20,628 [main] INFO  base.BaseClass - Login to XGL
+2023-09-13 19:49:20,629 [main] INFO  XGLT_6751_Test - Setting up browser
+2023-09-13 19:49:26,642 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+2023-09-13 19:49:26,692 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dP-PL\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+2023-09-13 19:49:36,015 [main] INFO  base.BaseClass - Before navigating to {url}
+2023-09-13 19:49:42,271 [main] INFO  base.BaseClass - Navigated to {url}
+2023-09-13 19:49:42,513 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:49:42,547 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 19:49:42,667 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:49:42,682 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 19:49:42,795 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:49:42,810 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 19:49:42,810 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 19:49:42,895 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 19:49:42,901 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:49:47,514 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 19:49:47,592 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:50:37,813 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:50:37,835 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 19:50:37,836 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 19:50:37,893 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 19:50:37,893 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:50:37,908 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 19:50:37,908 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 19:50:38,036 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 19:50:38,039 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:50:38,069 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 19:50:38,090 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:50:38,104 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 19:50:38,105 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 19:50:38,187 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 19:50:38,192 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:50:38,208 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 19:50:38,208 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 19:50:38,310 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 19:50:38,311 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:50:38,327 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 19:50:38,395 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:50:38,410 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 19:50:38,556 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:50:38,571 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 19:50:38,640 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:50:38,678 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 19:50:38,678 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 19:50:38,830 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 19:50:38,830 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:50:39,200 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 19:50:39,201 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 19:50:39,245 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 19:50:39,245 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:50:39,262 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 19:50:39,298 [Forwarding actions on session c37479146c55d75b23874168cc6536d8 to remote] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:50:39,308 [Forwarding actions on session c37479146c55d75b23874168cc6536d8 to remote] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 19:50:39,438 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:50:39,471 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 19:50:39,471 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 19:50:39,525 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 19:50:39,526 [Forwarding actions on session c37479146c55d75b23874168cc6536d8 to remote] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:50:39,545 [Forwarding actions on session c37479146c55d75b23874168cc6536d8 to remote] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 19:50:39,684 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:50:39,716 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 19:50:39,717 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 19:52:54,330 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\XGL Final\XGLFinal\Testng\testng.xml
+
+2023-09-13 19:52:54,385 [main] INFO  base.BaseClass - Login to XGL
+2023-09-13 19:52:54,385 [main] INFO  XGLT_6751_Test - Setting up browser
+2023-09-13 19:52:54,769 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+2023-09-13 19:52:54,803 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dP-PL\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+2023-09-13 19:52:57,187 [main] INFO  base.BaseClass - Before navigating to {url}
+2023-09-13 19:53:03,870 [main] INFO  base.BaseClass - Navigated to {url}
+2023-09-13 19:53:03,899 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:53:03,930 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 19:53:04,010 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:53:04,025 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 19:53:04,106 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:53:04,134 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 19:53:04,137 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 19:53:04,200 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 19:53:04,204 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:53:13,753 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 19:53:13,807 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:54:03,955 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:54:03,977 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 19:54:03,978 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 19:54:04,084 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 19:54:04,084 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:54:04,122 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 19:54:04,123 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 19:54:04,411 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 19:54:04,414 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:54:04,434 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 19:54:04,452 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:54:04,470 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 19:54:04,470 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 19:54:04,602 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 19:54:04,608 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:54:04,630 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 19:54:04,631 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 19:54:04,752 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 19:54:04,753 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:54:04,770 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 19:54:04,848 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:54:04,870 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 19:54:04,952 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:54:04,980 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 19:54:05,125 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:54:05,141 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 19:54:05,142 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 19:54:05,218 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 19:54:05,219 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:54:05,650 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 19:54:05,651 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 19:54:05,763 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 19:54:05,763 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:54:05,787 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 19:54:05,822 [Forwarding actions on session a7a1544aa3519c011871b176295f55be to remote] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:54:05,835 [Forwarding actions on session a7a1544aa3519c011871b176295f55be to remote] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 19:54:05,969 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:54:05,993 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 19:54:05,994 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 19:54:06,081 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 19:54:06,083 [Forwarding actions on session a7a1544aa3519c011871b176295f55be to remote] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:54:06,116 [Forwarding actions on session a7a1544aa3519c011871b176295f55be to remote] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 19:54:06,249 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:54:06,270 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 19:54:06,271 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 19:54:06,378 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 19:54:06,378 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:54:06,395 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 19:54:06,441 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:54:06,453 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 19:54:06,454 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 19:54:06,574 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 19:54:06,574 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:54:06,608 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 19:54:06,623 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 19:54:06,640 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 20:25:08,695 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\XGL Final\XGLFinal\Testng\testng.xml
+
+2023-09-13 20:25:08,754 [main] INFO  base.BaseClass - Login to XGL
+2023-09-13 20:25:08,754 [main] INFO  XGLT_6751_Test - Setting up browser
+2023-09-13 20:25:09,127 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+2023-09-13 20:25:09,158 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dP-PL\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+2023-09-13 20:25:12,089 [main] INFO  base.BaseClass - Before navigating to {url}
+2023-09-13 20:25:18,861 [main] INFO  base.BaseClass - Navigated to {url}
+2023-09-13 20:25:18,903 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 20:25:18,934 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 20:25:19,008 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 20:25:19,022 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 20:25:19,125 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 20:25:19,142 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 20:25:19,145 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 20:25:19,222 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 20:25:19,225 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 20:25:23,079 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 20:25:23,134 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 20:26:13,230 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 20:26:13,265 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 20:26:13,266 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 20:26:13,328 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 20:26:13,329 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 20:26:13,349 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 20:26:13,349 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 20:26:13,492 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 20:26:13,496 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 20:26:13,517 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 20:26:13,536 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 20:26:13,553 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 20:26:13,553 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 20:26:13,742 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 20:26:13,749 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 20:26:13,783 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 20:26:13,784 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 20:26:14,033 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 20:26:14,035 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 20:26:14,064 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 20:26:14,135 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 20:26:14,151 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 20:26:14,228 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 20:26:14,244 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 20:26:14,311 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 20:26:14,329 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 20:26:14,329 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 20:26:14,403 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 20:26:14,403 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 20:26:14,795 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 20:26:14,796 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 20:26:14,845 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 20:26:14,845 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 20:26:14,863 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 20:26:14,892 [Forwarding actions on session 8e50847b4e07c43ebe0a3e6c132d7bc9 to remote] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 20:26:14,904 [Forwarding actions on session 8e50847b4e07c43ebe0a3e6c132d7bc9 to remote] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 20:26:15,046 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 20:26:15,078 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 20:26:15,078 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 20:26:15,135 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 20:26:15,136 [Forwarding actions on session 8e50847b4e07c43ebe0a3e6c132d7bc9 to remote] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 20:26:15,153 [Forwarding actions on session 8e50847b4e07c43ebe0a3e6c132d7bc9 to remote] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 20:26:15,292 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 20:26:15,312 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 20:26:15,312 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 20:26:15,404 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 20:26:15,405 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 20:26:15,422 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 20:26:15,479 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 20:26:15,494 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 20:26:15,495 [main] INFO  base.BaseClass - Trying to click on: {element.toString()}
+2023-09-13 20:26:15,565 [main] INFO  base.BaseClass - Clicked on: {element.toString()}
+2023-09-13 20:26:15,565 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 20:26:15,582 [main] INFO  base.BaseClass - Found Element By {by.toString()}
+2023-09-13 20:26:15,592 [main] INFO  base.BaseClass - Trying to find Element By {by.toString()})
+2023-09-13 20:26:15,604 [main] INFO  base.BaseClass - Found Element By {by.toString()}

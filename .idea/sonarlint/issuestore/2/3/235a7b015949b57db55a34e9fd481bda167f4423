@@ -1,0 +1,41 @@
+
+F
+java:S1066ˆ"/Merge this if statement with the enclosing one.(¬¨µ
+k	java:S117n"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ïí×¬ùÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(˜¸Ş‰øÿÿÿÿ
+y	java:S116"_Rename this field "program_break_format" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õó±±üÿÿÿÿ
+v	java:S116"\Rename this field "program_break_add" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(º­¨”ûÿÿÿÿ
+x	java:S116"^Rename this field "program_break_title" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿úÑæøÿÿÿÿ
+u	java:S116"`Rename this field "program_break_episode" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñÆãÀ
+t	java:S116 "_Rename this field "program_break_length" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«ÖÁÒ
+z	java:S116""`Rename this field "program_break_visible" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºâ”¤ıÿÿÿÿ
+w	java:S116$"bRename this field "program_break_add_break" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êº¢ñ
+j	java:S116'"URename this field "break_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í–±È
+s	java:S116)"_Rename this field "break_inventory_type" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑôË>
+|	java:S116+"bRename this field "break_inventory_options" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ…Šıÿÿÿÿ
+p	java:S116-"[Rename this field "break_start_date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Äİò¡
+q	java:S116/"WRename this field "break_length" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë€¼»úÿÿÿÿ
+j	java:S1161"URename this field "break_save" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãÑÿ«
+r	java:S1163"]Rename this field "program_break_save" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö„…®
+u	java:S1166"[Rename this field "new_break_format" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã»—Ãıÿÿÿÿ
+w	java:S1169"]Rename this field "popup_save_confirm" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™éÄŞûÿÿÿÿ
+n	java:S116?"TRename this field "popup_yes" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßÄœºøÿÿÿÿ
+K
+java:S3252"5Use static access with "base.BaseClass" for "driver".(ÁÜÑ¥
+K
+java:S2209"5Change this instance-reference to a static reference.(ÁÜÑ¥
+h	java:S100A"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Šû´Ğşÿÿÿÿ
+N	java:S106D"9Replace this use of System.out or System.err by a logger.(œÓ€ü
+S	java:S106E"9Replace this use of System.out or System.err by a logger.(±ƒÉİÿÿÿÿÿ
+U	java:S106F"9Replace this use of System.out or System.err by a logger.(ğêºû8ÈìĞÍ¨1
+V	java:S125H"<This block of commented-out lines of code should be removed.(çõÔşÿÿÿÿ
+S	java:S106L"9Replace this use of System.out or System.err by a logger.(š™¿Çùÿÿÿÿ
+Z	java:S106M"9Replace this use of System.out or System.err by a logger.(±ƒÉİÿÿÿÿÿ8ÊìĞÍ¨1
+Q	java:S125_"<This block of commented-out lines of code should be removed.(ÄÙ¾¬
+V	java:S125|"<This block of commented-out lines of code should be removed.(‡°É÷şÿÿÿÿ
+S	java:S106~"9Replace this use of System.out or System.err by a logger.(¥í©–ıÿÿÿÿ
+i	java:S100ƒ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Šğ±šøÿÿÿÿ
+2
+java:S3626‘"Remove this redundant jump.(ûÁİ…
+Q
+java:S1128"/Remove this unused import 'java.time.Duration'.(ëá¯‰üÿÿÿÿ8ÑìĞÍ¨1

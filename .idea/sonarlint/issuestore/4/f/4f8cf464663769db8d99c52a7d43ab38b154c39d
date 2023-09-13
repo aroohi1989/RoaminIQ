@@ -1,0 +1,18 @@
+
+m	java:S117N"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…”Øı8¾Ñ¯¦1
+r	java:S117c"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡§ì‚şÿÿÿÿ8¿Ñ¯¦1
+s	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à õıÿÿÿÿ8¿Ñ¯¦1
+~
+java:S1488J"\Immediately return this expression instead of assigning it to the temporary variable "code".(â×³ãıÿÿÿÿ8¿Ñ¯¦1
+^
+java:S3457:"AFormat specifiers should be used instead of string concatenation.(¤â¯Á8üÑ¯¦1
+@
+java:S2119A"Save and re-use this "Random".(šŸ«íøÿÿÿÿ8ıÑ¯¦1
+d
+java:S3457É"AFormat specifiers should be used instead of string concatenation.(Ó¥èÎÿÿÿÿÿ8‘Ñ¯¦1
+V
+java:S1172"3Remove this unused method parameter "xpathlocator".(ê¨˜Åûÿÿÿÿ8—‘Ñ¯¦1
+d
+java:S3457©"AFormat specifiers should be used instead of string concatenation.(Ó¥èÎÿÿÿÿÿ8µÃ¥Ì¦1
+Q
+java:S1128"/Remove this unused import 'java.time.Duration'.(ëá¯‰üÿÿÿÿ8—‘¦Ì¦1

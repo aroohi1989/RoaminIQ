@@ -54,6 +54,9 @@ public class SalesPersonPage extends BaseClass
 
     @FindBy(xpath = "//div[@class='dropDown']")
     WebElement dropdown;
+
+
+
     public SalesPersonPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
@@ -66,7 +69,7 @@ public class SalesPersonPage extends BaseClass
             try {
                 str = ele.getText();
                 ele.click();
-                Reporter.log("Company entity selected is " + str);
+                Reporter.log("Value selected is " + str);
             }
             catch(Exception et)
             {
