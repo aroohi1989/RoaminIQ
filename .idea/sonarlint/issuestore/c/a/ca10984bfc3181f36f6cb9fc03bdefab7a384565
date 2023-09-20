@@ -1,0 +1,12 @@
+
+r	java:S117["QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š¿©Èùÿÿÿÿ8¬ÇÂÏ¨1
+R
+java:S3252="5Use static access with "base.BaseClass" for "driver".(ÁÜÑ¥8ÍöÓÑ¨1
+R
+java:S2209="5Change this instance-reference to a static reference.(ÁÜÑ¥8ÎöÓÑ¨1
+X
+java:S1128"6Remove this unused import 'helper.JavaScriptExecutor'.(«µÁğıÿÿÿÿ8ÊÇÂÏ¨1
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ÊÇÂÏ¨1
+\
+java:S1128"?Remove this unused import 'org.openqa.selenium.Keys.PAGE_DOWN'.(Õã‰8ÊÇÂÏ¨1

@@ -1,0 +1,9 @@
+
+r	java:S117T"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Îƒ€îüÿÿÿÿ8¾çğ¨1
+s	java:S116/"RRename this field "Seccode" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘ŸÒŠüÿÿÿÿ8Èçğ¨1
+s	java:S1162"RRename this field "Secdesc" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕşÇúÿÿÿÿ8Èçğ¨1
+R
+java:S3252D"5Use static access with "base.BaseClass" for "driver".(ÁÜÑ¥8Íçğ¨1
+R
+java:S2209D"5Change this instance-reference to a static reference.(ÁÜÑ¥8Íçğ¨1
+j	java:S100H"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”›âÒ8Íçğ¨1
