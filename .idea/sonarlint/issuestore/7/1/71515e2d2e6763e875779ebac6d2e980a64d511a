@@ -1,9 +1,0 @@
-
-m	java:S116"XRename this field "about_version" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“ôÿ
-r	java:S116"XRename this field "about_content" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±¾ò‚úÿÿÿÿ
-m	java:S116 "SRename this field "about_ok" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Šú¥üÿÿÿÿ
-R
-java:S3252"5Use static access with "base.BaseClass" for "driver".(ÁÜÑ¥8ôÔÑÑ¨1
-R
-java:S2209"5Change this instance-reference to a static reference.(ÁÜÑ¥8õÔÑÑ¨1
-o	java:S100@"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥¥é›şÿÿÿÿ8³ÕÑÑ¨1

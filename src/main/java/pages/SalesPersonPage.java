@@ -3,6 +3,7 @@ package pages;
 import base.BaseClass;
 import helper.ExceptionHandling;
 import helper.JavaScriptExecutor;
+import helper.SaveProjectData;
 import helper.Utility;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -103,6 +104,8 @@ public class SalesPersonPage extends BaseClass
         if(spbreadcrum.isDisplayed())
         {
             Assert.assertTrue(spbreadcrum.getText().contains("New Salesperson"));
+            SaveProjectData spd=new SaveProjectData();
+            spd.saveprojectData("Salesperson",init);
         }
     }
 }

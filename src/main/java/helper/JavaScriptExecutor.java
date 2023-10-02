@@ -23,6 +23,14 @@ public class JavaScriptExecutor extends BaseClass
     {
         js.executeScript("arguments[0].setAttribute('value', '" + str +"')", ele);
     }
+    public void scrolldownbyjs()
+    {
+        js.executeScript("window.scrollBy(0,350)", "");
+    }
+    public void scrolltobottombyJS()
+    {
+        js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
+    }
     public void highlightElement(WebElement ele,String style)
     {
         try {

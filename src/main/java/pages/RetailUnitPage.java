@@ -2,6 +2,8 @@ package pages;
 
 import base.BaseClass;
 import dataProvider.ConfigReader;
+import helper.Read_write_Excel;
+import helper.SaveProjectData;
 import helper.Utility;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -63,6 +65,7 @@ public class RetailUnitPage extends BaseClass
     }
     public void AddretailUnit()
     {
+
         config.click();
         scheduleSettings.click();
         SoftAssert sa=new SoftAssert();
@@ -73,7 +76,7 @@ public class RetailUnitPage extends BaseClass
         Utility ut= new Utility();
         String init=ut.randomAlphaNumeric(2);
         RUid.sendKeys(init);
-        String sp_name=init+"retail unit";
+        String sp_name=init+" retail unit";
         RUdesc.sendKeys(sp_name);
         RUsyscode.sendKeys(ConfigReader.getPropertyvalue("syscode"));
         RUaddheadend.click();
@@ -91,5 +94,7 @@ public class RetailUnitPage extends BaseClass
         }
         System.out.println("RO is "+cobreadcrum.getText());
         Assert.assertTrue(cobreadcrum.getText().contains("New Retail Unit"));
+        SaveProjectData sp=new SaveProjectData();
+        sp.saveprojectData("Retail",init);
     }
 }

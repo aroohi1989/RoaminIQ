@@ -21,9 +21,9 @@
           <include name="name"/>
           <include name="CustomDatePA"/>
           <include name="CustomDatePB"/>
+          <include name="NetworkInstanceCurrentWeekPA"/>
           <include name="archive_old"/>
           <include name="NetworkInstanceCurrentWeekPB"/>
-          <include name="closeBrowser"/>
           <include name="NextfourDaysPA"/>
         </methods>
       </class> <!-- XGLT_6688_Test -->

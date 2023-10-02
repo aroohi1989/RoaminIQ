@@ -1,6 +1,7 @@
 package pages;
 
 import base.BaseClass;
+import helper.SaveProjectData;
 import helper.Utility;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -97,6 +98,7 @@ public class CommodityCodePage extends BaseClass
             coSave.click();
         }
         Assert.assertTrue(cobreadcrum.getText().contains("New Commodity"));
-
+        SaveProjectData sp=new SaveProjectData();
+        sp.saveprojectData("Commodity code",init);
     }
 }

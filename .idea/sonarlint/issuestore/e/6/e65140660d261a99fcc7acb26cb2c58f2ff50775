@@ -1,0 +1,13 @@
+
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ì„ƒÁÿÿÿÿÿ
+i	java:S116"ORename this field "Jira" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒãüºùÿÿÿÿ
+l	java:S116"RRename this field "JiraUrl" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß­óìşÿÿÿÿ
+I
+java:S1172%"3Remove this unused method parameter "reporterName".(Ã¶°ó
+S	java:S106."9Replace this use of System.out or System.err by a logger.(Õåğõùÿÿÿÿ
+S	java:S106@"9Replace this use of System.out or System.err by a logger.(«…ÿÿÿÿÿ
+N	java:S106B"9Replace this use of System.out or System.err by a logger.(¬âú
+S	java:S106D"9Replace this use of System.out or System.err by a logger.(€œä¤üÿÿÿÿ
+S	java:S106F"9Replace this use of System.out or System.err by a logger.(±èâàüÿÿÿÿ
+G
+java:S1128"1Remove this unused import 'net.rcarz.jiraclient'.(İİØ

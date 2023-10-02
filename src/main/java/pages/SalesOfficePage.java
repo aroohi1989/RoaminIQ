@@ -1,6 +1,7 @@
 package pages;
 
 import base.BaseClass;
+import helper.SaveProjectData;
 import helper.Utility;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -62,8 +63,9 @@ public class SalesOfficePage extends BaseClass
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         if(spbreadcrum.isDisplayed())
         {
-            //System.out.println("RT value "+spbreadcrum.getText());
             Assert.assertTrue(spbreadcrum.getText().contains("New Sales Office"));
+            SaveProjectData spd=new SaveProjectData();
+            spd.saveprojectData("Sales Office",init);
         }
 
     }

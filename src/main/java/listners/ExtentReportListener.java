@@ -9,7 +9,10 @@ import java.util.Date;
 
 import browserfactory.BrowserFactory;
 import dataProvider.ConfigReader;
+import helper.JiraCreateIssue;
+import helper.JiraServiceProvider;
 import helper.Utility;
+import org.apache.commons.lang.exception.ExceptionUtils;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
@@ -102,6 +105,7 @@ public class ExtentReportListener implements ITestListener
         String methodName = result.getMethod().getMethodName();
         test.get().fail(result.getThrowable(), MediaEntityBuilder.createScreenCaptureFromPath(Utility.getScreenshot()).build());
         test.get().getModel().setEndTime(getTime(result.getEndMillis()));
+
     }
 
     public synchronized void onTestSkipped(ITestResult result) {
@@ -109,7 +113,22 @@ public class ExtentReportListener implements ITestListener
         String methodName = result.getMethod().getMethodName();
        // test.get().pass(result.getThrowable(), MediaEntityBuilder.createScreenCaptureFromPath(Utility.getScreenshot()).build());
         test.get().getModel().setEndTime(getTime(result.getEndMillis()));
-    }
+        //for JIRA
+        /*boolean islogIssue=result.getMethod().getConstructorOrMethod().getMethod().getAnnotation(JiraCreateIssue.class).isCreateIssue();
+        if(islogIssue){
+
+            //Provide proper Jira project URL ex: https://browsertack.atlassian.net 
+            //Jira User name ex: browserstack@gmail.com
+            //API token copy from Jira dashboard ex: lorelimpusm12uijk
+            //Project key should be, Short name ex: BS
+            JiraServiceProvider JiraServiceProvider=new JiraServiceProvider("https://example.atlassian.net", "example@gmail.com","lorelimpusm12uijk","BS");
+            String issueDescription="Failure Reason from Automation Testing"+result.getThrowable().getMessage()+"\n";
+            issueDescription.concat(ExceptionUtils.getFullStackTrace(result.getThrowable()));
+            String issueSummary =result.getMethod().getConstructorOrMethod().getMethod().getName() + "Failed in Automation Testing";
+            JiraServiceProvider.createJiraIssue("Bug",issueSummary,issueDescription,"Automated Testing");*/
+        }
+
+
 
     public synchronized void onTestFailedButWithinSuccessPercentage(ITestResult result) {
         System.out.println(("onTestFailedButWithinSuccessPercentage for " + result.getMethod().getMethodName()));

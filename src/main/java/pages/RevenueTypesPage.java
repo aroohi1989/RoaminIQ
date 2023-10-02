@@ -1,6 +1,7 @@
 package pages;
 
 import base.BaseClass;
+import helper.SaveProjectData;
 import helper.Utility;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -77,6 +78,8 @@ public class RevenueTypesPage extends BaseClass
         {
             System.out.println("RT value is "+spbreadcrum.getText());
             Assert.assertTrue(spbreadcrum.getText().contains("New Revenue Type"));
+            SaveProjectData spd=new SaveProjectData();
+            spd.saveprojectData("Revenue type",init);
         }
 
     }

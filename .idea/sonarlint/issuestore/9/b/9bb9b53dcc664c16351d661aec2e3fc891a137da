@@ -1,42 +1,36 @@
 
 v
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ƒ®û‡8ÈºÏ—1
+java:S2293!"YReplace the type specification in this constructor call with the diamond operator ("<>").(ƒ®û‡8ñßßâ¬1
 m
-java:S1104"PMake test a static final constant or non-public and provide accessors if needed.(ƒ®û‡8ÊºÏ—1
+java:S1104!"PMake test a static final constant or non-public and provide accessors if needed.(ƒ®û‡8óßßâ¬1
 G
-java:S1444"*Make this "public static test" field final(ƒ®û‡8ÊºÏ—1
+java:S1444!"*Make this "public static test" field final(ƒ®û‡8óßßâ¬1
 ~
-java:S1450"\Remove the "extentReports" field and declare it as a local variable in the relevant methods.(£ö×¨úÿÿÿÿ8ôºÏ—1
-]	java:S125"<This block of commented-out lines of code should be removed.(ĞéĞ®ÿÿÿÿÿ8öºÏ—1
-]	java:S1259"<This block of commented-out lines of code should be removed.(Œö×Óùÿÿÿÿ8€»Ï—1
-T	java:S106@"9Replace this use of System.out or System.err by a logger.(´…Ú8»Ï—1
-Z	java:S106F"9Replace this use of System.out or System.err by a logger.(Æˆï£ùÿÿÿÿ8‚»Ï—1
-U	java:S106S"9Replace this use of System.out or System.err by a logger.(åŞ¥û8†»Ï—1
+java:S1450""\Remove the "extentReports" field and declare it as a local variable in the relevant methods.(£ö×¨úÿÿÿÿ8šàßâ¬1
+]	java:S125"<This block of commented-out lines of code should be removed.(ĞéĞ®ÿÿÿÿÿ8œàßâ¬1
+]	java:S125<"<This block of commented-out lines of code should be removed.(Œö×Óùÿÿÿÿ8¤àßâ¬1
+T	java:S106C"9Replace this use of System.out or System.err by a logger.(´…Ú8¥àßâ¬1
+Z	java:S106I"9Replace this use of System.out or System.err by a logger.(Æˆï£ùÿÿÿÿ8¦àßâ¬1
+U	java:S106V"9Replace this use of System.out or System.err by a logger.(åŞ¥û8©àßâ¬1
 W
-java:S1161]":Add the "@Override" annotation above this method signature(ø§Ú°8‹»Ï—1
-U	java:S106^"9Replace this use of System.out or System.err by a logger.(®êÆœ8Œ»Ï—1
+java:S1161`":Add the "@Override" annotation above this method signature(ø§Ú°8­àßâ¬1
+U	java:S106a"9Replace this use of System.out or System.err by a logger.(®êÆœ8®àßâ¬1
 `
-java:S1854f">Remove this useless assignment to local variable "methodName".(Ä¸Á×ûÿÿÿÿ8»Ï—1
+java:S1854i">Remove this useless assignment to local variable "methodName".(Ä¸Á×ûÿÿÿÿ8±àßâ¬1
 \
-java:S1161d":Add the "@Override" annotation above this method signature(—¡û×ùÿÿÿÿ8»Ï—1
-Z	java:S106e"9Replace this use of System.out or System.err by a logger.(ÚõÙ’ùÿÿÿÿ8‘»Ï—1
+java:S1161g":Add the "@Override" annotation above this method signature(—¡û×ùÿÿÿÿ8±àßâ¬1
+Z	java:S106h"9Replace this use of System.out or System.err by a logger.(ÚõÙ’ùÿÿÿÿ8±àßâ¬1
 Q
-java:S1481f"/Remove this unused "methodName" local variable.(Ä¸Á×ûÿÿÿÿ8’»Ï—1
+java:S1481i"/Remove this unused "methodName" local variable.(Ä¸Á×ûÿÿÿÿ8²àßâ¬1
 `
-java:S1854m">Remove this useless assignment to local variable "methodName".(Ä¸Á×ûÿÿÿÿ8•»Ï—1
+java:S1854q">Remove this useless assignment to local variable "methodName".(Ä¸Á×ûÿÿÿÿ8µàßâ¬1
 \
-java:S1161k":Add the "@Override" annotation above this method signature(áñ¡¤øÿÿÿÿ8•»Ï—1
-U	java:S106l"9Replace this use of System.out or System.err by a logger.(‡©‹’8–»Ï—1
+java:S1161o":Add the "@Override" annotation above this method signature(áñ¡¤øÿÿÿÿ8µàßâ¬1
+U	java:S106p"9Replace this use of System.out or System.err by a logger.(‡©‹’8µàßâ¬1
 Q
-java:S1481m"/Remove this unused "methodName" local variable.(Ä¸Á×ûÿÿÿÿ8—»Ï—1
-]	java:S125n"<This block of commented-out lines of code should be removed.(“îÜ²øÿÿÿÿ8˜»Ï—1
-V
-java:S1161r":Add the "@Override" annotation above this method signature(‡Çh8™»Ï—1
-Z	java:S106s"9Replace this use of System.out or System.err by a logger.(¹ÊÌßÿÿÿÿÿ8š»Ï—1
+java:S1481q"/Remove this unused "methodName" local variable.(Ä¸Á×ûÿÿÿÿ8¶àßâ¬1
+]	java:S125r"<This block of commented-out lines of code should be removed.(“îÜ²øÿÿÿÿ8·àßâ¬1
+X	java:S125u"<This block of commented-out lines of code should be removed.(àĞæŞ8¹àßâ¬1
 W
-java:S1128
-":Remove this unused import 'browserfactory.BrowserFactory'.(Šİ¤Œ8„Æå§1
-S
-java:S1128"6Remove this unused import 'dataProvider.ConfigReader'.(ß÷×÷8…Æå§1
-W
-java:S1128":Remove this unused import 'org.openqa.selenium.WebDriver'.(ñšÿÀ8…Æå§1
+java:S1161…":Add the "@Override" annotation above this method signature(‡Çh8»àßâ¬1
+[	java:S106†"9Replace this use of System.out or System.err by a logger.(¹ÊÌßÿÿÿÿÿ8»àßâ¬1
