@@ -1,875 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="27" total="44" passed="11" failed="6" skipped="0">
+<testng-results ignored="2" total="3" passed="0" failed="1" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[InstanceQA134-PS xGL DB]]>
-    </line>
-    <line>
-      <![CDATA[InstanceQA134-PS xGL DBData Service10.7.30.164:1521/xgldb]]>
-    </line>
-    <line>
-      <![CDATA[InstanceQA134-PS xGL DBData Service10.7.30.164:1521/xgldbChannel CountChannelCount: 585, HeadendCount=97]]>
-    </line>
-    <line>
-      <![CDATA[InstanceQA134-PS xGL DBData Service10.7.30.164:1521/xgldbChannel CountChannelCount: 585, HeadendCount=97Build Infodevelop | ID=ee188f4 b6 @ 09/29/23 11:03 AM]]>
-    </line>
-    <line>
-      <![CDATA[InstanceQA134-PS xGL DBData Service10.7.30.164:1521/xgldbChannel CountChannelCount: 585, HeadendCount=97Build Infodevelop | ID=ee188f4 b6 @ 09/29/23 11:03 AMPackage InfoxGLinear 2.6.0 Azure Build at 09/29/2023 11:09:04]]>
-    </line>
-    <line>
-      <![CDATA[Pass: About information read]]>
-    </line>
-    <line>
-      <![CDATA[Value selected is 7U | 7Usalesperson]]>
-    </line>
-    <line>
-      <![CDATA[Value selected is 01 | Denver Interconnect]]>
-    </line>
-    <line>
-      <![CDATA[Pass: Test XGLT-6693]]>
-    </line>
-    <line>
-      <![CDATA[ Current Week]]>
-    </line>
-    <line>
-      <![CDATA[MC pending allocation count is ]]>
-    </line>
-    <line>
-      <![CDATA[Actual Pending Allocation count on page is ]]>
-    </line>
-    <line>
-      <![CDATA[ Current Week]]>
-    </line>
-    <line>
-      <![CDATA[ Next 4 Weeks]]>
-    </line>
-    <line>
-      <![CDATA[ Next 4 Weeks]]>
-    </line>
-    <line>
-      <![CDATA[MC pending allocation count is 117]]>
-    </line>
-    <line>
-      <![CDATA[Actual Pending Allocation count on page is ]]>
-    </line>
-    <line>
-      <![CDATA[ Next 4 Weeks]]>
-    </line>
-    <line>
-      <![CDATA[ Next 4 Weeks]]>
-    </line>
-    <line>
-      <![CDATA[ Custom Dates]]>
-    </line>
-    <line>
-      <![CDATA[ Custom Dates]]>
-    </line>
-    <line>
-      <![CDATA[MC Pending build count is 76]]>
-    </line>
-    <line>
-      <![CDATA[Actual Pending build count on page is ]]>
-    </line>
-    <line>
-      <![CDATA[winActiveDir is 0]]>
-    </line>
-    <line>
-      <![CDATA[ logged in users is 1]]>
-    </line>
-    <line>
-      <![CDATA[ total xgl users 84]]>
-    </line>
-    <line>
-      <![CDATA[ total number of users is 0]]>
-    </line>
-    <line>
-      <![CDATA[Value in DB 84 and value on MC widget is 84]]>
-    </line>
-    <line>
-      <![CDATA[Value selected is Digital | Digital]]>
-    </line>
   </reporter-output>
-  <suite started-at="2023-09-29T21:12:32 IST" name="Smoke Pack Suite" finished-at="2023-09-29T21:40:47 IST" duration-ms="1695353">
+  <suite started-at="2023-10-03T20:42:26 IST" name="Smoke Pack Suite" finished-at="2023-10-03T20:43:29 IST" duration-ms="62964">
     <groups>
     </groups>
-    <test started-at="2023-09-29T21:12:32 IST" name="About_network_test" finished-at="2023-09-29T21:40:47 IST" duration-ms="1695353">
-      <class name="XGLT_6752_Test">
-        <test-method is-config="true" signature="login()[pri:0, instance:XGLT_6752_Test@4a3e3e8b]" started-at="2023-09-29T21:39:26 IST" name="login" finished-at="2023-09-29T21:40:39 IST" duration-ms="73023" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="CreateNewHardRegion()[pri:1, instance:XGLT_6752_Test@4a3e3e8b]" started-at="2023-09-29T21:40:39 IST" name="CreateNewHardRegion" finished-at="2023-09-29T21:40:43 IST" duration-ms="3757" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateNewHardRegion -->
-        <test-method is-config="true" signature="name(org.testng.ITestContext)[pri:0, instance:XGLT_6752_Test@4a3e3e8b]" started-at="2023-09-29T21:40:39 IST" name="name" finished-at="2023-09-29T21:40:39 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@7bdab06c]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- name -->
-        <test-method is-config="true" signature="name(org.testng.ITestContext)[pri:0, instance:XGLT_6752_Test@4a3e3e8b]" started-at="2023-09-29T21:40:43 IST" name="name" finished-at="2023-09-29T21:40:43 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@7bdab06c]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- name -->
-        <test-method signature="CreateNewSoftRegion()[pri:1, instance:XGLT_6752_Test@4a3e3e8b]" started-at="2023-09-29T21:40:43 IST" name="CreateNewSoftRegion" finished-at="2023-09-29T21:40:47 IST" duration-ms="3611" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateNewSoftRegion -->
-      </class> <!-- XGLT_6752_Test -->
-      <class name="XGLT_6688_Test">
-        <test-method is-config="true" signature="login()[pri:0, instance:XGLT_6688_Test@285d851a]" started-at="2023-09-29T21:16:44 IST" name="login" finished-at="2023-09-29T21:17:53 IST" duration-ms="68060" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="name(org.testng.ITestContext)[pri:0, instance:XGLT_6688_Test@285d851a]" started-at="2023-09-29T21:17:53 IST" name="name" finished-at="2023-09-29T21:17:53 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@7bdab06c]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- name -->
-        <test-method signature="NetworkInstanceCurrentWeekPA()[pri:2, instance:XGLT_6688_Test@285d851a]" started-at="2023-09-29T21:17:53 IST" name="NetworkInstanceCurrentWeekPA" finished-at="2023-09-29T21:18:50 IST" duration-ms="57921" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1413)
-at org.testng.Assert.assertTrue(Assert.java:56)
-at org.testng.Assert.assertTrue(Assert.java:66)
-at XGLT_6688_Test.NetworkInstanceCurrentWeekPA(XGLT_6688_Test.java:47)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-            <line>
-              <![CDATA[ Current Week]]>
-            </line>
-            <line>
-              <![CDATA[MC pending allocation count is ]]>
-            </line>
-            <line>
-              <![CDATA[Actual Pending Allocation count on page is ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- NetworkInstanceCurrentWeekPA -->
-        <test-method signature="NetworkInstanceCurrentWeekPB()[pri:3, instance:XGLT_6688_Test@285d851a]" started-at="2023-09-29T21:18:51 IST" name="NetworkInstanceCurrentWeekPB" finished-at="2023-09-29T21:23:02 IST" duration-ms="251370" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@ng-click,'PendingBuild')]/div[@class='ng-binding']"}
-  (Session info: chrome=117.0.5938.132)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DPLAP166', ip: '137.237.2.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\dP-PL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53490}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 56d42ac2ed049fb5aefa376e3a0b9cf8
-*** Element info: {Using=xpath, value=//div[contains(@ng-click,'PendingBuild')]/div[@class='ng-binding']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@ng-click,'PendingBuild')]/div[@class='ng-binding']"}
-  (Session info: chrome=117.0.5938.132)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DPLAP166', ip: '137.237.2.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\dP-PL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53490}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 56d42ac2ed049fb5aefa376e3a0b9cf8
-*** Element info: {Using=xpath, value=//div[contains(@ng-click,'PendingBuild')]/div[@class='ng-binding']}
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-at jdk.proxy2/jdk.proxy2.$Proxy24.findElement(Unknown Source)
-at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy27.getText(Unknown Source)
-at pages.NetworkInstancePage.getmcpendingbuildcount(NetworkInstancePage.java:165)
-at pages.NetworkInstancePage.verifypendingbuildcount(NetworkInstancePage.java:180)
-at XGLT_6688_Test.NetworkInstanceCurrentWeekPB(XGLT_6688_Test.java:57)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-            <line>
-              <![CDATA[ Current Week]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- NetworkInstanceCurrentWeekPB -->
-        <test-method is-config="true" signature="name(org.testng.ITestContext)[pri:0, instance:XGLT_6688_Test@285d851a]" started-at="2023-09-29T21:18:51 IST" name="name" finished-at="2023-09-29T21:18:51 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@7bdab06c]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- name -->
-        <test-method is-config="true" signature="name(org.testng.ITestContext)[pri:0, instance:XGLT_6688_Test@285d851a]" started-at="2023-09-29T21:23:02 IST" name="name" finished-at="2023-09-29T21:23:02 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@7bdab06c]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- name -->
-        <test-method signature="NextfourDaysPA()[pri:4, instance:XGLT_6688_Test@285d851a]" started-at="2023-09-29T21:23:02 IST" name="NextfourDaysPA" finished-at="2023-09-29T21:24:56 IST" duration-ms="113411" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1413)
-at org.testng.Assert.assertTrue(Assert.java:56)
-at org.testng.Assert.assertTrue(Assert.java:66)
-at XGLT_6688_Test.NextfourDaysPA(XGLT_6688_Test.java:70)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-            <line>
-              <![CDATA[ Next 4 Weeks]]>
-            </line>
-            <line>
-              <![CDATA[ Next 4 Weeks]]>
-            </line>
-            <line>
-              <![CDATA[MC pending allocation count is 117]]>
-            </line>
-            <line>
-              <![CDATA[Actual Pending Allocation count on page is ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- NextfourDaysPA -->
-        <test-method signature="NextfourDaysPB()[pri:5, instance:XGLT_6688_Test@285d851a]" started-at="2023-09-29T21:24:56 IST" name="NextfourDaysPB" finished-at="2023-09-29T21:29:58 IST" duration-ms="301642" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@ng-click,'PendingBuild')]/div[@class='ng-binding']"}
-  (Session info: chrome=117.0.5938.132)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DPLAP166', ip: '137.237.2.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\dP-PL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53490}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 56d42ac2ed049fb5aefa376e3a0b9cf8
-*** Element info: {Using=xpath, value=//div[contains(@ng-click,'PendingBuild')]/div[@class='ng-binding']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@ng-click,'PendingBuild')]/div[@class='ng-binding']"}
-  (Session info: chrome=117.0.5938.132)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DPLAP166', ip: '137.237.2.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\dP-PL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53490}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 56d42ac2ed049fb5aefa376e3a0b9cf8
-*** Element info: {Using=xpath, value=//div[contains(@ng-click,'PendingBuild')]/div[@class='ng-binding']}
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-at jdk.proxy2/jdk.proxy2.$Proxy24.findElement(Unknown Source)
-at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy27.getText(Unknown Source)
-at pages.NetworkInstancePage.getmcpendingbuildcount(NetworkInstancePage.java:165)
-at pages.NetworkInstancePage.verifypendingbuildcount(NetworkInstancePage.java:180)
-at XGLT_6688_Test.NextfourDaysPB(XGLT_6688_Test.java:83)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-            <line>
-              <![CDATA[ Next 4 Weeks]]>
-            </line>
-            <line>
-              <![CDATA[ Next 4 Weeks]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- NextfourDaysPB -->
-        <test-method is-config="true" signature="name(org.testng.ITestContext)[pri:0, instance:XGLT_6688_Test@285d851a]" started-at="2023-09-29T21:24:56 IST" name="name" finished-at="2023-09-29T21:24:56 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@7bdab06c]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- name -->
-        <test-method signature="CustomDatePA()[pri:6, instance:XGLT_6688_Test@285d851a]" started-at="2023-09-29T21:29:58 IST" name="CustomDatePA" finished-at="2023-09-29T21:30:48 IST" duration-ms="50541" status="FAIL">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=117.0.5938.132)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DPLAP166', ip: '137.237.2.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\dP-PL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53490}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 56d42ac2ed049fb5aefa376e3a0b9cf8]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=117.0.5938.132)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DPLAP166', ip: '137.237.2.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\dP-PL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53490}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 56d42ac2ed049fb5aefa376e3a0b9cf8
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
-at jdk.proxy2/jdk.proxy2.$Proxy28.click(Unknown Source)
-at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
-at pages.NetworkInstancePage.selectDate(NetworkInstancePage.java:126)
-at XGLT_6688_Test.CustomDatePA(XGLT_6688_Test.java:96)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
-          <reporter-output>
-            <line>
-              <![CDATA[ Custom Dates]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- CustomDatePA -->
-        <test-method is-config="true" signature="name(org.testng.ITestContext)[pri:0, instance:XGLT_6688_Test@285d851a]" started-at="2023-09-29T21:29:58 IST" name="name" finished-at="2023-09-29T21:29:58 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@7bdab06c]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- name -->
-        <test-method is-config="true" signature="name(org.testng.ITestContext)[pri:0, instance:XGLT_6688_Test@285d851a]" started-at="2023-09-29T21:30:49 IST" name="name" finished-at="2023-09-29T21:30:49 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@7bdab06c]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- name -->
-        <test-method signature="CustomDatePB()[pri:6, instance:XGLT_6688_Test@285d851a]" started-at="2023-09-29T21:30:49 IST" name="CustomDatePB" finished-at="2023-09-29T21:32:41 IST" duration-ms="112819" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1413)
-at org.testng.Assert.assertTrue(Assert.java:56)
-at org.testng.Assert.assertTrue(Assert.java:66)
-at XGLT_6688_Test.CustomDatePB(XGLT_6688_Test.java:110)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-            <line>
-              <![CDATA[ Custom Dates]]>
-            </line>
-            <line>
-              <![CDATA[MC Pending build count is 76]]>
-            </line>
-            <line>
-              <![CDATA[Actual Pending build count on page is ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- CustomDatePB -->
-      </class> <!-- XGLT_6688_Test -->
-      <class name="XGLT_6749_Test">
-        <test-method is-config="true" signature="login()[pri:0, instance:XGLT_6749_Test@664a9613]" started-at="2023-09-29T21:34:08 IST" name="login" finished-at="2023-09-29T21:35:19 IST" duration-ms="71113" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="name(org.testng.ITestContext)[pri:0, instance:XGLT_6749_Test@664a9613]" started-at="2023-09-29T21:35:19 IST" name="name" finished-at="2023-09-29T21:35:19 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@7bdab06c]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- name -->
-        <test-method signature="CreateNewSalesoffice()[pri:1, instance:XGLT_6749_Test@664a9613]" started-at="2023-09-29T21:35:19 IST" name="CreateNewSalesoffice" finished-at="2023-09-29T21:35:20 IST" duration-ms="1285" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateNewSalesoffice -->
-      </class> <!-- XGLT_6749_Test -->
-      <class name="XGLT_6748_Test">
-        <test-method is-config="true" signature="login()[pri:0, instance:XGLT_6748_Test@361c294e]" started-at="2023-09-29T21:13:48 IST" name="login" finished-at="2023-09-29T21:15:01 IST" duration-ms="72836" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="name(org.testng.ITestContext)[pri:0, instance:XGLT_6748_Test@361c294e]" started-at="2023-09-29T21:15:01 IST" name="name" finished-at="2023-09-29T21:15:01 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@7bdab06c]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- name -->
-        <test-method signature="CreateNewSalesPerson()[pri:1, instance:XGLT_6748_Test@361c294e]" started-at="2023-09-29T21:15:01 IST" name="CreateNewSalesPerson" finished-at="2023-09-29T21:15:26 IST" duration-ms="25617" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Value selected is 7U | 7Usalesperson]]>
-            </line>
-            <line>
-              <![CDATA[Value selected is 01 | Denver Interconnect]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- CreateNewSalesPerson -->
-      </class> <!-- XGLT_6748_Test -->
-      <class name="XGLT_6693_Test">
-        <test-method is-config="true" signature="login()[pri:0, instance:XGLT_6693_Test@7859e786]" started-at="2023-09-29T21:15:27 IST" name="login" finished-at="2023-09-29T21:16:38 IST" duration-ms="70874" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="name(org.testng.ITestContext)[pri:0, instance:XGLT_6693_Test@7859e786]" started-at="2023-09-29T21:16:38 IST" name="name" finished-at="2023-09-29T21:16:38 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@7bdab06c]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- name -->
-        <test-method signature="MissonControlReset()[pri:2, instance:XGLT_6693_Test@7859e786]" started-at="2023-09-29T21:16:38 IST" name="MissonControlReset" finished-at="2023-09-29T21:16:44 IST" duration-ms="6577" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Pass: Test XGLT-6693]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- MissonControlReset -->
-      </class> <!-- XGLT_6693_Test -->
-      <class name="XGLT_6150_Test">
-        <test-method is-config="true" signature="login()[pri:0, instance:XGLT_6150_Test@5118388b]" started-at="2023-09-29T21:35:20 IST" name="login" finished-at="2023-09-29T21:36:27 IST" duration-ms="66433" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="name(org.testng.ITestContext)[pri:0, instance:XGLT_6150_Test@5118388b]" started-at="2023-09-29T21:36:27 IST" name="name" finished-at="2023-09-29T21:36:27 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@7bdab06c]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- name -->
-        <test-method signature="CreateNewrevenuType()[pri:1, instance:XGLT_6150_Test@5118388b]" started-at="2023-09-29T21:36:27 IST" name="CreateNewrevenuType" finished-at="2023-09-29T21:36:48 IST" duration-ms="21504" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Value selected is Digital | Digital]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- CreateNewrevenuType -->
-      </class> <!-- XGLT_6150_Test -->
-      <class name="XGLT_15177_Test">
-        <test-method is-config="true" signature="archive_old()[pri:0, instance:XGLT_15177_Test@61078690]" started-at="2023-09-29T21:12:32 IST" name="archive_old" finished-at="2023-09-29T21:12:32 IST" duration-ms="22" status="PASS">
+    <test started-at="2023-10-03T20:42:26 IST" name="About_network_test" finished-at="2023-10-03T20:43:29 IST" duration-ms="62964">
+      <class name="XGLT_6666_Test">
+        <test-method is-config="true" signature="archive_old()[pri:0, instance:XGLT_6666_Test@25bcd0c7]" started-at="2023-10-03T20:42:26 IST" name="archive_old" finished-at="2023-10-03T20:42:26 IST" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- archive_old -->
-        <test-method is-config="true" signature="initOR()[pri:0, instance:XGLT_15177_Test@61078690]" started-at="2023-09-29T21:12:32 IST" name="initOR" finished-at="2023-09-29T21:12:32 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="initOR()[pri:0, instance:XGLT_6666_Test@25bcd0c7]" started-at="2023-10-03T20:42:26 IST" name="initOR" finished-at="2023-10-03T20:42:26 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initOR -->
-        <test-method is-config="true" signature="setupLog4j()[pri:0, instance:XGLT_15177_Test@61078690]" started-at="2023-09-29T21:12:32 IST" name="setupLog4j" finished-at="2023-09-29T21:12:32 IST" duration-ms="15" status="PASS">
+        <test-method is-config="true" signature="setupLog4j()[pri:0, instance:XGLT_6666_Test@25bcd0c7]" started-at="2023-10-03T20:42:26 IST" name="setupLog4j" finished-at="2023-10-03T20:42:26 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupLog4j -->
-        <test-method is-config="true" signature="login()[pri:0, instance:XGLT_15177_Test@61078690]" started-at="2023-09-29T21:12:32 IST" name="login" finished-at="2023-09-29T21:13:45 IST" duration-ms="73139" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:XGLT_6666_Test@25bcd0c7]" started-at="2023-10-03T20:42:26 IST" name="login" finished-at="2023-10-03T20:43:28 IST" duration-ms="61709" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="name(org.testng.ITestContext)[pri:0, instance:XGLT_15177_Test@61078690]" started-at="2023-09-29T21:13:45 IST" name="name" finished-at="2023-09-29T21:13:45 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="name(org.testng.ITestContext)[pri:0, instance:XGLT_6666_Test@25bcd0c7]" started-at="2023-10-03T20:43:28 IST" name="name" finished-at="2023-10-03T20:43:28 IST" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@7bdab06c]]>
+                <![CDATA[org.testng.TestRunner@65629ac6]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- name -->
-        <test-method signature="About()[pri:2, instance:XGLT_15177_Test@61078690]" started-at="2023-09-29T21:13:45 IST" name="About" finished-at="2023-09-29T21:13:48 IST" duration-ms="2836" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[InstanceQA134-PS xGL DB]]>
-            </line>
-            <line>
-              <![CDATA[InstanceQA134-PS xGL DBData Service10.7.30.164:1521/xgldb]]>
-            </line>
-            <line>
-              <![CDATA[InstanceQA134-PS xGL DBData Service10.7.30.164:1521/xgldbChannel CountChannelCount: 585, HeadendCount=97]]>
-            </line>
-            <line>
-              <![CDATA[InstanceQA134-PS xGL DBData Service10.7.30.164:1521/xgldbChannel CountChannelCount: 585, HeadendCount=97Build Infodevelop | ID=ee188f4 b6 @ 09/29/23 11:03 AM]]>
-            </line>
-            <line>
-              <![CDATA[InstanceQA134-PS xGL DBData Service10.7.30.164:1521/xgldbChannel CountChannelCount: 585, HeadendCount=97Build Infodevelop | ID=ee188f4 b6 @ 09/29/23 11:03 AMPackage InfoxGLinear 2.6.0 Azure Build at 09/29/2023 11:09:04]]>
-            </line>
-            <line>
-              <![CDATA[Pass: About information read]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- About -->
-      </class> <!-- XGLT_15177_Test -->
-      <class name="XGLT_6753_Test">
-        <test-method is-config="true" signature="login()[pri:0, instance:XGLT_6753_Test@15a902e7]" started-at="2023-09-29T21:36:49 IST" name="login" finished-at="2023-09-29T21:37:52 IST" duration-ms="63603" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="name(org.testng.ITestContext)[pri:0, instance:XGLT_6753_Test@15a902e7]" started-at="2023-09-29T21:37:52 IST" name="name" finished-at="2023-09-29T21:37:52 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@7bdab06c]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- name -->
-        <test-method signature="CreateCommodityCode()[pri:1, instance:XGLT_6753_Test@15a902e7]" started-at="2023-09-29T21:37:52 IST" name="CreateCommodityCode" finished-at="2023-09-29T21:38:14 IST" duration-ms="22049" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateCommodityCode -->
-      </class> <!-- XGLT_6753_Test -->
-      <class name="XGLT_6992_Test">
-        <test-method is-config="true" signature="login()[pri:0, instance:XGLT_6992_Test@314b8f2d]" started-at="2023-09-29T21:32:42 IST" name="login" finished-at="2023-09-29T21:33:54 IST" duration-ms="72609" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="name(org.testng.ITestContext)[pri:0, instance:XGLT_6992_Test@314b8f2d]" started-at="2023-09-29T21:33:54 IST" name="name" finished-at="2023-09-29T21:33:54 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@7bdab06c]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- name -->
-        <test-method signature="MCsetUser()[pri:1, instance:XGLT_6992_Test@314b8f2d]" started-at="2023-09-29T21:33:54 IST" name="MCsetUser" finished-at="2023-09-29T21:34:00 IST" duration-ms="5513" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MCsetUser -->
-        <test-method signature="getMCUsercounts()[pri:2, instance:XGLT_6992_Test@314b8f2d]" started-at="2023-09-29T21:34:00 IST" name="getMCUsercounts" finished-at="2023-09-29T21:34:07 IST" duration-ms="7448" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[winActiveDir is 0]]>
-            </line>
-            <line>
-              <![CDATA[ logged in users is 1]]>
-            </line>
-            <line>
-              <![CDATA[ total xgl users 84]]>
-            </line>
-            <line>
-              <![CDATA[ total number of users is 0]]>
-            </line>
-            <line>
-              <![CDATA[Value in DB 84 and value on MC widget is 84]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- getMCUsercounts -->
-        <test-method is-config="true" signature="name(org.testng.ITestContext)[pri:0, instance:XGLT_6992_Test@314b8f2d]" started-at="2023-09-29T21:34:00 IST" name="name" finished-at="2023-09-29T21:34:00 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@7bdab06c]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="CreateNewStandardCust()[pri:1, instance:XGLT_6666_Test@25bcd0c7]" started-at="2023-10-03T20:43:28 IST" name="CreateNewStandardCust" finished-at="2023-10-03T20:43:29 IST" duration-ms="762" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found
+  (Session info: chrome=117.0.5938.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DPLAP166', ip: '137.237.3.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\dP-PL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53466}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9cb138f3123d480af6c24f8147e2bed4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=117.0.5938.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DPLAP166', ip: '137.237.3.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\dP-PL\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53466}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9cb138f3123d480af6c24f8147e2bed4
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+at jdk.proxy2/jdk.proxy2.$Proxy25.perform(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.perform(EventFiringWebDriver.java:360)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
+at pages.CustomerPage.selectCustType(CustomerPage.java:123)
+at pages.CustomerPage.createStandardCustomer(CustomerPage.java:182)
+at XGLT_6666_Test.CreateNewStandardCust(XGLT_6666_Test.java:11)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- name -->
-      </class> <!-- XGLT_6992_Test -->
-      <class name="XGLT_6751_Test">
-        <test-method is-config="true" signature="login()[pri:0, instance:XGLT_6751_Test@7876d598]" started-at="2023-09-29T21:38:14 IST" name="login" finished-at="2023-09-29T21:39:24 IST" duration-ms="69083" status="PASS">
+        </test-method> <!-- CreateNewStandardCust -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:XGLT_6666_Test@25bcd0c7]" started-at="2023-10-03T20:43:29 IST" name="closeBrowser" finished-at="2023-10-03T20:43:29 IST" duration-ms="282" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="name(org.testng.ITestContext)[pri:0, instance:XGLT_6751_Test@7876d598]" started-at="2023-09-29T21:39:24 IST" name="name" finished-at="2023-09-29T21:39:24 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@7bdab06c]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- name -->
-        <test-method signature="CreateNewRetailUnit()[pri:1, instance:XGLT_6751_Test@7876d598]" started-at="2023-09-29T21:39:24 IST" name="CreateNewRetailUnit" finished-at="2023-09-29T21:39:26 IST" duration-ms="2352" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateNewRetailUnit -->
-      </class> <!-- XGLT_6751_Test -->
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- XGLT_6666_Test -->
     </test> <!-- About_network_test -->
   </suite> <!-- Smoke Pack Suite -->
 </testng-results>

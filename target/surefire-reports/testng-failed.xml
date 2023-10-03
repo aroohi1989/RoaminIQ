@@ -12,21 +12,17 @@
     <parameter name="URL" value="https://qa134.myimagine.com/xGLinear/login.html"/>
     <parameter name="username" value="MCU"/>
     <classes>
-      <class name="XGLT_6688_Test">
+      <class name="XGLT_6666_Test">
         <methods>
           <include name="setupLog4j"/>
           <include name="login"/>
           <include name="initOR"/>
-          <include name="NextfourDaysPB"/>
           <include name="name"/>
-          <include name="CustomDatePA"/>
-          <include name="CustomDatePB"/>
-          <include name="NetworkInstanceCurrentWeekPA"/>
+          <include name="CreateNewStandardCust"/>
           <include name="archive_old"/>
-          <include name="NetworkInstanceCurrentWeekPB"/>
-          <include name="NextfourDaysPA"/>
+          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- XGLT_6688_Test -->
+      </class> <!-- XGLT_6666_Test -->
     </classes>
   </test> <!-- About_network_test(failed) -->
 </suite> <!-- Failed suite [Smoke Pack Suite] -->

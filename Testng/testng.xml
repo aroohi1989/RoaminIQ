@@ -12,8 +12,8 @@
         <parameter name="browser" value="Chrome"></parameter>
         <parameter name="inventorytype" value="DEFAULT | Default (unallocated)Inventory"></parameter>
         <classes>
-            <class name="XGLT_15177_Test"/>
-            <!--class name="Create_Network"/-->
+            <!--class name="XGLT_15177_Test"/>
+            <class name="Create_Network"/>
             <class name="XGLT_6748_Test"/>
             <class name="XGLT_6693_Test"/>
             <class name="XGLT_6688_Test"/>
@@ -22,7 +22,8 @@
             <class name="XGLT_6150_Test"/>
             <class name="XGLT_6753_Test"/>
             <class name="XGLT_6751_Test"/>
-            <class name="XGLT_6752_Test"/>
+            <class name="XGLT_6752_Test"/!-->
+            <class name="XGLT_6666_Test"/>
         </classes>
     </test>
 </suite>

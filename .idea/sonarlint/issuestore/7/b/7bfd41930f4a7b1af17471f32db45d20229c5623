@@ -1,0 +1,19 @@
+
+L
+java:S3740`"/Provide the parametrized type for this generic.(Ÿ¬‚8Ë·Ã‹®1
+r	java:S117u"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ó¾¶ùÿÿÿÿ8Ì·Ã‹®1
+s	java:S117®"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ó¾¶ùÿÿÿÿ8Ì·Ã‹®1
+}
+java:S1488b"[Immediately return this expression instead of assigning it to the temporary variable "ele".(°…Åìüÿÿÿÿ8Í·Ã‹®1
+R
+java:S3252]"5Use static access with "base.BaseClass" for "driver".(ÁÜÑ¥8ù·Ã‹®1
+R
+java:S2209]"5Change this instance-reference to a static reference.(ÁÜÑ¥8ù·Ã‹®1
+V	java:S106‹"9Replace this use of System.out or System.err by a logger.(ĞªÒà8ı·Ã‹®1
+V	java:S106—"9Replace this use of System.out or System.err by a logger.(ÔÉ¾¸8¸Ã‹®1
+V	java:S106Ä"9Replace this use of System.out or System.err by a logger.(ĞªÒà8†¸Ã‹®1
+V	java:S106Ñ"9Replace this use of System.out or System.err by a logger.(ÔÉ¾¸8ˆ¸Ã‹®1
+B
+java:S1128"%Remove this unused import 'java.awt'.(ï´µ©8Â·Œ®1
+Q
+java:S1128"4Remove this unused import 'java.awt.event.KeyEvent'.(¬ğİÍ8Â·Œ®1

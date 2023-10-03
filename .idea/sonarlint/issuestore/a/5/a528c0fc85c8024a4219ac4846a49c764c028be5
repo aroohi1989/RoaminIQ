@@ -1,0 +1,20 @@
+
+i
+java:S1192["GDefine a constant instead of duplicating this literal "Agency" 3 times.(×Ú×ëýÿÿÿÿ8Ç³«°¯1
+m
+java:S1192©"JDefine a constant instead of duplicating this literal "Customers" 3 times.(ßïò³ýÿÿÿÿ8È³«°¯1
+p
+java:S1192¸"MDefine a constant instead of duplicating this literal "New Customer" 3 times.(Î¤Îîÿÿÿÿÿ8È³«°¯1
+R
+java:S3252J"5Use static access with "base.BaseClass" for "driver".(ÁÜÑ¥8÷³«°¯1
+R
+java:S2209J"5Change this instance-reference to a static reference.(ÁÜÑ¥8ø³«°¯1
+]	java:S125h"<This block of commented-out lines of code should be removed.(äØ¡ûÿÿÿÿ8”´«°¯1
+^	java:S125ƒ"<This block of commented-out lines of code should be removed.(äØ¡ûÿÿÿÿ8¯•¯°¯1
+S
+java:S1751”"5Remove this "break" statement or make it conditional.(›ûä·8•´«°¯1
+S
+java:S1751 "5Remove this "break" statement or make it conditional.(›ûä·8–´«°¯1
+[	java:S106Ë"9Replace this use of System.out or System.err by a logger.(¦úÀËøÿÿÿÿ8š´«°¯1
+J
+java:S1128"(Remove this unused import 'javax.swing'.(Ìí¿Üüÿÿÿÿ8ž´«°¯1

@@ -88,7 +88,7 @@ public class BaseClass
         LoginXGL(ConfigReader.getPropertyvalue("username"), ConfigReader.getPropertyvalue("password"));
 
     }
-    //@AfterClass
+    @AfterClass
     public void closeBrowser()
     {
         log.info("closing up browser");

@@ -7,6 +7,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import listners.WebEventListener;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
@@ -25,9 +26,15 @@ public class BrowserFactory extends BaseClass
     public static WebDriver startBrowser(String browserName, String applicationURL)
     {
         System.setProperty("webdriver.http.factory", "jdk-http-client");
+        //Create instance of ChromeOptions Class
+        ChromeOptions handlingSSL = new ChromeOptions();
+        //Using the accept insecure cert method with true as parameter to accept the untrusted certificate
+        handlingSSL.setAcceptInsecureCerts(true);
+
         if (browserName.contains("Chrome")) {
             WebDriverManager.chromedriver().setup();
-            driver = new ChromeDriver();
+            driver = new ChromeDriver(handlingSSL);
+
         } else if (browserName.contains("Edge")) {
             WebDriverManager.edgedriver().setup();
             driver = new EdgeDriver();
@@ -46,6 +53,7 @@ public class BrowserFactory extends BaseClass
         driver.manage().window().maximize();
         driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
         driver.get(applicationURL);
+        driver.navigate().refresh();
         driver.manage().timeouts().implicitlyWait(50,TimeUnit.SECONDS);
         return driver;
     }

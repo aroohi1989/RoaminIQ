@@ -1,0 +1,35 @@
+
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(²Şã®ùÿÿÿÿ8€ı†ƒ®1
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Á—ãşÿÿÿÿÿ8ı†ƒ®1
+m	java:S117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“ûº¹8ı†ƒ®1
+r	java:S117,"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈªÜ¦úÿÿÿÿ8ı†ƒ®1
+m	java:S117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö… 8ı†ƒ®1
+r	java:S117."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š£¸úÿÿÿÿ8ı†ƒ®1
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(‡Æï€8‚ı†ƒ®1
+o
+java:S2095#"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ãŒ„´ÿÿÿÿÿ8Åš‰ƒ®1
+o
+java:S2095_"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ãŒ„´ÿÿÿÿÿ8¬ı†ƒ®1
+o
+java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ãŒ„´ÿÿÿÿÿ8¬ı†ƒ®1
+g
+java:S2095$"JUse try-with-resources or close this "XSSFWorkbook" in a "finally" clause.(Ú‹…8Åš‰ƒ®1
+g
+java:S2095`"JUse try-with-resources or close this "XSSFWorkbook" in a "finally" clause.(Ú‹…8¬ı†ƒ®1
+g
+java:S2095D"JUse try-with-resources or close this "XSSFWorkbook" in a "finally" clause.(Ú‹…8¬ı†ƒ®1
+o
+java:S2095C"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(¾¡½ßÿÿÿÿÿ8¬ı†ƒ®1
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²Şã®ùÿÿÿÿ8­ı†ƒ®1
+^
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(½±áÇ8°ı†ƒ®1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(åòÒ’8¹ı†ƒ®1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(çáÿ 8ºı†ƒ®1
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á—ãşÿÿÿÿÿ8ºı†ƒ®1
+^
+java:S1075""ARefactor your code to get this URI from a customizable parameter.(‡«íÉ8¼ı†ƒ®1
+U	java:S106%"9Replace this use of System.out or System.err by a logger.(åòÒ’8¼ı†ƒ®1
+Z	java:S106)"9Replace this use of System.out or System.err by a logger.(ê³¨ıÿÿÿÿ8¼ı†ƒ®1
+Z	java:S106/"9Replace this use of System.out or System.err by a logger.(‹Ä¡€ûÿÿÿÿ8½ı†ƒ®1
+Z	java:S106R"9Replace this use of System.out or System.err by a logger.(´½”Ïùÿÿÿÿ8Âı†ƒ®1
+j	java:S100Z"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äõ‹•8Âı†ƒ®1

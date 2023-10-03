@@ -1,0 +1,6 @@
+# Created at 2023-10-03T19:17:06.533
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DPLAP166', ip: '137.237.3.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: driver.version: EventFiringWebDriver
+
