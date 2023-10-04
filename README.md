@@ -22,6 +22,3 @@ Points to remember:
 2. package,method can start will small letters
 3. Browser launch, login, and logout happens automatically , no need to include these in your tests
 
-
-JIRA TOKEN:
-ATATT3xFfGF0gYI-Ah0ZZamdZ4tOMXEzsJ_lKrxRO-VgYglWzhPyOWP5nOr0tr_hrsH4zj9q3S8WoOEkUWyGwtBNql_u4jNYVyDgcGT9bYbJmKVENvTPshm8mDGv1TAl19eePKVjyLwmPbf-7sPk6641AERYEnkL4uxmEXcnXD6a0R0K1Ojcngc=6037AA4A
